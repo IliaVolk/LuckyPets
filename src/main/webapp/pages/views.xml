@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.2.2//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="template"
+            template="/pages/main_template.jsp"><!--Common template-->
+        <put-attribute name="header" value="/pages/sections/header.jsp"/>
+        <put-attribute name="signin_signout_side" value="/pages/sections/login.jsp"/>
+        <put-attribute name="content" value="Content"/>
+        <put-attribute name="footer" value="/pages/sections/footer.jsp"/>
+    </definition>
+    <definition name="home" extends="template"><!--home page template-->
+        <put-attribute name="content" value="/pages/index.jsp"/>
+    </definition>
+    <definition name="logout" extends="template">
+        <put-attribute name="content" value="/pages/index.jsp"/>
+    </definition>
+
+</tiles-definitions>
