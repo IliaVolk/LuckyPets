@@ -9,8 +9,8 @@ import org.springframework.web.servlet.view.tiles2.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles2.TilesView;
 @Configuration
 public class TilesConfig {
-    @Bean
-    public UrlBasedViewResolver setupViewResolver(){
+    @Bean(name = "viewResolver")
+    public UrlBasedViewResolver viewResolver() {
         UrlBasedViewResolver resolver = new UrlBasedViewResolver();
         resolver.setViewClass(TilesView.class);
         return resolver;

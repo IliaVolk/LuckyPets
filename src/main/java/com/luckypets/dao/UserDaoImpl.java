@@ -4,6 +4,7 @@ import com.luckypets.entity.User;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
+//@Repository
 public class UserDaoImpl extends HibernateDaoSupport implements UserDao{
     @Override
     public void saveUser(User user) {

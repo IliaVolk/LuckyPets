@@ -2,6 +2,12 @@
 <%@ taglib prefix="t" uri="http://tiles.apache.org/tags-tiles" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
+<head>
+  <!-- Bootstrap core CSS -->
+  <link href="<c:url value="/resources/css/bootstrap.css" />" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="<c:url value="/resources/css/jumbotron-narrow.css" />" rel="stylesheet">
+</head>
 <body>
 <div id="container">
   <div id="top">

@@ -16,12 +16,14 @@ public class Initializer implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
+        servletContext.addListener(new ContextLoaderListener(ctx));
         ctx.register(WebAppConfig.class);
         ctx.register(SecurityConfig.class);
         ctx.register(TilesConfig.class);
-        ctx.register(HibernateConfig.class);
         ctx.register(DataSourceConfig.class);
-        servletContext.addListener(new ContextLoaderListener(ctx));
+        ctx.register(HibernateConfig.class);
+
+
 
         ctx.setServletContext(servletContext);
 

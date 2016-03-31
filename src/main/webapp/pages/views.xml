@@ -13,8 +13,15 @@
     <definition name="home" extends="template"><!--home page template-->
         <put-attribute name="content" value="/pages/index.jsp"/>
     </definition>
-    <definition name="logout" extends="template">
-        <put-attribute name="content" value="/pages/index.jsp"/>
+    <definition name="foradmin" extends="template">
+        <put-attribute name="content" value="/pages/foradmin.jsp"/>
     </definition>
 
+    <definition name="registration/edit" extends="template">
+        <put-attribute name="content" value="/pages/sections/registration_form.jsp"/>
+    </definition>
+
+    <definition name="registration/hello" extends="template">
+        <put-attribute name="content" value="/pages/sections/registration_hello.jsp"/>
+    </definition>
 </tiles-definitions>

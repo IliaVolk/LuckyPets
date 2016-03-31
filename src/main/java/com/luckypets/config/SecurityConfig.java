@@ -1,5 +1,6 @@
 package com.luckypets.config;
 
+import com.luckypets.entity.enums.UserRole;
 import com.luckypets.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -23,11 +24,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void registerGlobalAuthentication(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .userDetailsService(userDetailsService)
-                .passwordEncoder(getShaPasswordEncoder());
+                .passwordEncoder(getShaPasswordEncoder())
+        ;
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        http.rememberMe().and();
+
+
+        http.authorizeRequests().antMatchers("/foradmin").
+                hasRole(UserRole.ROLE_ADMIN.configValue()).and();
         http.csrf()
                 .disable()
                 .authorizeRequests()

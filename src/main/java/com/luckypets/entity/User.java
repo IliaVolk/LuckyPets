@@ -7,6 +7,8 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 
+@Entity
+@Table(name = "user")
 public class User {
 
     @Id
@@ -15,13 +17,13 @@ public class User {
     private int id;
 
     @Column(name = "login")
-    @Pattern(regexp = "^[a-zA-Z0-9]$", message = "must me alphanumerical")
+    @Pattern(regexp = "^[a-zA-Z0-9]+$", message = "must me alphanumerical")
     @Size(min = 4, max = 19, message = "must be between 4 and 19 characters long")
     private String login;
 
-    @Size(min = 4, max = 19, message = "must be between 4 and 19 characters long")
+    //@Size(min = 4, max = 40, message = "must be between 4 and 19 characters long")
     @Column(name = "password")
-    @Pattern(regexp = "^[a-zA-Z0-9]$", message = "must be alphanumerical")
+    //@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "must be alphanumerical")
     private String password;
 
     @Enumerated
