@@ -4,8 +4,7 @@ package com.luckypets.entity.enums;
 public enum UserRole {
 
     ROLE_ADMIN,
-    ROLE_USER,
-    ROLE_ANONYMOUS;
+    ROLE_USER;
     UserRole() {
     }
 

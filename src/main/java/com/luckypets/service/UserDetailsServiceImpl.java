@@ -32,7 +32,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                 roles.add(new SimpleGrantedAuthority(UserRole.ROLE_ADMIN.name()));
                 break;
             default:
-                roles.add(new SimpleGrantedAuthority(UserRole.ROLE_ANONYMOUS.name()));
+                throw new IllegalStateException("loaded user with unknown role");
         }
         UserDetails userDetails =
                 new org.springframework.security.core.userdetails.User(

@@ -8,7 +8,8 @@
     <name>LuckyPets</name>
 
     <properties>
-        <spring.mvc>4.0.0.RELEASE</spring.mvc>
+        <spring.mvc>4.0.3.RELEASE</spring.mvc>
+        <!--was 4.0.0-->
         <javax.servlet>3.0.1</javax.servlet>
         <jstl.version>1.2</jstl.version>
         <spring.securiry>3.2.0.RELEASE</spring.securiry>
@@ -102,7 +103,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.1.1.RELEASE</version>
+            <version>${spring.mvc}</version>
             <scope>test</scope>
         </dependency>
         <!--validation begins-->

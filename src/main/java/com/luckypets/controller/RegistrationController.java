@@ -23,8 +23,7 @@ public class RegistrationController {
 
     @RequestMapping(method = RequestMethod.GET, params = "new")
     public String createNewProfile(Model model) {
-        model.addAttribute("user",
-                new User());
+        model.addAttribute("user", new User());
         return "registration/edit";
     }
 

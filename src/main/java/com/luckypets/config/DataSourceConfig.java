@@ -1,12 +1,15 @@
 package com.luckypets.config;
 
 
-import com.mysql.jdbc.Driver;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
+@EnableTransactionManagement
 public class DataSourceConfig {
 
     @Bean
@@ -18,6 +21,11 @@ public class DataSourceConfig {
         dataSource.setPassword("root");
         dataSource.setInitialSize(1);
         return dataSource;
+    }
+
+    @Bean
+    public PlatformTransactionManager txManager(BasicDataSource dataSource) {
+        return new DataSourceTransactionManager(dataSource);
     }
     /*<!--data source DBCP (pools of connections) begins-->
     <bean id="dataSource"

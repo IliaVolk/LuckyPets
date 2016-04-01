@@ -5,11 +5,13 @@ import com.luckypets.entity.enums.UserRole;
 import javax.persistence.*;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
+import java.util.List;
 
 
 @Entity
 @Table(name = "user")
-public class User {
+public class User implements Serializable {
 
     @Id
     @Column
@@ -30,6 +32,14 @@ public class User {
     @Column(name = "role")
     private UserRole role;
 
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    private List<ClinicComment> clinicComments;
+
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    private List<Advert> adverts;
+
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    private List<AdvertComment> advertComments;
 
     public User(String login, String password) {
         this.login = login;
@@ -38,6 +48,30 @@ public class User {
 
     public User() {
 
+    }
+
+    public List<AdvertComment> getAdvertComments() {
+        return advertComments;
+    }
+
+    public void setAdvertComments(List<AdvertComment> advertComments) {
+        this.advertComments = advertComments;
+    }
+
+    public List<Advert> getAdverts() {
+        return adverts;
+    }
+
+    public void setAdverts(List<Advert> adverts) {
+        this.adverts = adverts;
+    }
+
+    public List<ClinicComment> getClinicComments() {
+        return clinicComments;
+    }
+
+    public void setClinicComments(List<ClinicComment> clinicComments) {
+        this.clinicComments = clinicComments;
     }
 
     public UserRole getRole() {

@@ -15,20 +15,20 @@
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
           <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.20" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.3.RELEASE" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.2.0.RELEASE" />

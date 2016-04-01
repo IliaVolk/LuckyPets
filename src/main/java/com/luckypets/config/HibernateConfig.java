@@ -1,8 +1,12 @@
 package com.luckypets.config;
 
 
+import com.luckypets.dao.ClinicCommentDao;
+import com.luckypets.dao.ClinicDao;
 import com.luckypets.dao.UserDao;
-import com.luckypets.dao.UserDaoImpl;
+import com.luckypets.dao.impl.ClinicCommentDaoImpl;
+import com.luckypets.dao.impl.ClinicDaoImpl;
+import com.luckypets.dao.impl.UserDaoImpl;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Bean;
@@ -33,8 +37,22 @@ public class HibernateConfig {
     @Bean
     public UserDao userDao(SessionFactory sessionFactory) {
         UserDaoImpl userDao = new UserDaoImpl();
-        userDao.setSessionFactory(sessionFactory);
+        //userDao.setSessionFactory(sessionFactory);
         return userDao;
+    }
+
+    @Bean
+    public ClinicDao clinicDao(SessionFactory sessionFactory) {
+        ClinicDaoImpl clinicDao = new ClinicDaoImpl();
+        //clinicDao.setSessionFactory(sessionFactory);
+        return clinicDao;
+    }
+
+    @Bean
+    ClinicCommentDao clinicCommentDao(SessionFactory sessionFactory) {
+        ClinicCommentDaoImpl clinicCommentDao = new ClinicCommentDaoImpl();
+        //clinicCommentDao.setSessionFactory(sessionFactory);
+        return clinicCommentDao;
     }
 
     /*

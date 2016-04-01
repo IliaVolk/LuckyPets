@@ -7,7 +7,6 @@
             template="/pages/main_template.jsp"><!--Common template-->
         <put-attribute name="header" value="/pages/sections/header.jsp"/>
         <put-attribute name="signin_signout_side" value="/pages/sections/login.jsp"/>
-        <put-attribute name="content" value="Content"/>
         <put-attribute name="footer" value="/pages/sections/footer.jsp"/>
     </definition>
     <definition name="home" extends="template"><!--home page template-->
