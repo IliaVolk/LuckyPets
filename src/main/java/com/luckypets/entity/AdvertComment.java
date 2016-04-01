@@ -5,6 +5,8 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
+@Entity
+@Table(name = "advert_comments")
 public class AdvertComment implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
