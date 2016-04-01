@@ -1,5 +1,6 @@
 package com.luckypets.entity;
 
+import com.luckypets.entity.enums.AdvertType;
 import com.luckypets.entity.enums.AnimalType;
 
 import javax.persistence.*;
@@ -42,6 +43,22 @@ public class Advert implements Serializable {//объявление
     @OneToMany(mappedBy = "advert", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<AdvertComment> advertComments;
 
+    @Column(name = "advert_type")
+    @Enumerated
+    private AdvertType advertType;
+
+    @PrePersist
+    public void setCreationDateAsCurrentTime() {
+        creationDate = new Date();
+    }
+
+    public AdvertType getAdvertType() {
+        return advertType;
+    }
+
+    public void setAdvertType(AdvertType advertType) {
+        this.advertType = advertType;
+    }
 
     public Date getCreationDate() {
         return creationDate;

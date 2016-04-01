@@ -29,6 +29,11 @@ public class AdvertComment implements Serializable {
     @JoinColumn(name = "user_id")
     private User user;
 
+    @PrePersist
+    public void setCreationDateAsCurrentTime() {
+        creationDate = new Date();
+    }
+
     public long getId() {
         return id;
     }
