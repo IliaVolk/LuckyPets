@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
 
-@RequestMapping("/registration")
+@RequestMapping("/user")
 @Controller
-public class RegistrationController {
+public class UserController {
 
     @Autowired
     private UserService userService;
@@ -24,25 +24,25 @@ public class RegistrationController {
     @RequestMapping(method = RequestMethod.GET, params = "new")
     public String createNewProfile(Model model) {
         model.addAttribute("user", new User());
-        return "registration/edit";
+        return "user/edit";
     }
 
     @RequestMapping(method = RequestMethod.POST)
     public String saveUserFromForm(@Valid User user,
                                    BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {//errors checking
-            return "registration/edit";
+            return "user/edit";
         }
 
         userService.saveUser(user);
 
-        return "redirect:/registration/" + user.getLogin();
+        return "redirect:/user/" + user.getLogin();
     }
 
     @RequestMapping(value = "/{login}", method = RequestMethod.GET)
     public String showSpitterProfile(@PathVariable String login,
                                      Model model) {
         model.addAttribute("user", userService.getUser(login));
-        return "registration/hello";
+        return "user/profile";
     }
 }

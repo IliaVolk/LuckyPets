@@ -7,8 +7,8 @@ import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
-import java.util.EnumSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "advert")
@@ -38,9 +38,10 @@ public class Advert implements Serializable {//объявление
     @CollectionTable(name = "advert_animal_types",
             joinColumns = @JoinColumn(name = "advert_id"))
     @Column(name = "animal")
-    private EnumSet<AnimalType> animalTypes;
+    private Set<AnimalType> animalTypes;
 
     @OneToMany(mappedBy = "advert", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OrderBy("creationDate DESC ")
     private List<AdvertComment> advertComments;
 
     @Column(name = "advert_type")
@@ -100,11 +101,11 @@ public class Advert implements Serializable {//объявление
         this.user = user;
     }
 
-    public EnumSet<AnimalType> getAnimalTypes() {
+    public Set<AnimalType> getAnimalTypes() {
         return animalTypes;
     }
 
-    public void setAnimalTypes(EnumSet<AnimalType> animalTypes) {
+    public void setAnimalTypes(Set<AnimalType> animalTypes) {
         this.animalTypes = animalTypes;
     }
 

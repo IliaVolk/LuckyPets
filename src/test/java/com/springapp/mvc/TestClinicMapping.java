@@ -3,6 +3,7 @@ package com.springapp.mvc;
 import com.luckypets.config.DataSourceConfig;
 import com.luckypets.config.HibernateConfig;
 import com.luckypets.config.Initializer;
+import com.luckypets.config.WebAppConfig;
 import com.luckypets.dao.ClinicCommentDao;
 import com.luckypets.dao.ClinicDao;
 import com.luckypets.dao.UserDao;
@@ -22,7 +23,7 @@ import java.util.List;
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 @ContextConfiguration(classes = {Initializer.class,
-        HibernateConfig.class, DataSourceConfig.class})
+        WebAppConfig.class, HibernateConfig.class, DataSourceConfig.class})
 public class TestClinicMapping {
     @Autowired
     ClinicDao clinicDao;
@@ -43,8 +44,6 @@ public class TestClinicMapping {
         clinicComment.setUser(user);
         clinicCommentDao.saveComment(clinicComment);
         testGettingClinic();
-
-
     }
 
     @Test

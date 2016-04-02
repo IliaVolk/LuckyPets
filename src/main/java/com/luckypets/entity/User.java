@@ -33,12 +33,15 @@ public class User implements Serializable {
     private UserRole role;
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    @OrderBy("creationDate DESC ")
     private List<ClinicComment> clinicComments;
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    @OrderBy("creationDate DESC ")
     private List<Advert> adverts;
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    @OrderBy("creationDate DESC ")
     private List<AdvertComment> advertComments;
 
     public User(String login, String password) {

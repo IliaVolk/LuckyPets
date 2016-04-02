@@ -5,8 +5,8 @@ import com.luckypets.entity.enums.AnimalType;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
-import java.util.EnumSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "clinic")
@@ -19,7 +19,10 @@ public class Clinic implements Serializable {
     @Size(max = 63)
     private String title;
 
-    //private LatLng latLng;
+
+    @OneToOne
+    @JoinColumn(name = "lat_lng_id")
+    private LatLng latLng;
 
     @Column(name = "description")
     @Size(max = 255)
@@ -35,17 +38,26 @@ public class Clinic implements Serializable {
     @CollectionTable(name = "clinic_animal_types",
             joinColumns = @JoinColumn(name = "clinic_id"))
     @Column(name = "animal")
-    private EnumSet<AnimalType> animalTypes;
+    private Set<AnimalType> animalTypes;
 
     @OneToMany(mappedBy = "clinic", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OrderBy("creationDate DESC ")
     private List<ClinicComment> comments;
 
 
-    public EnumSet<AnimalType> getAnimalTypes() {
+    public LatLng getLatLng() {
+        return latLng;
+    }
+
+    public void setLatLng(LatLng latLng) {
+        this.latLng = latLng;
+    }
+
+    public Set<AnimalType> getAnimalTypes() {
         return animalTypes;
     }
 
-    public void setAnimalTypes(EnumSet<AnimalType> animalTypes) {
+    public void setAnimalTypes(Set<AnimalType> animalTypes) {
         this.animalTypes = animalTypes;
     }
 
@@ -125,8 +137,9 @@ public class Clinic implements Serializable {
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", contactEmails=" + contactEmails +
-                //", comments=" + comments +
+                ", latLng=" + latLng +
                 ", mark='" + getMark() + "'" +
+                ", animalTypes=" + animalTypes +
                 '}';
     }
 }

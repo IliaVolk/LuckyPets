@@ -16,11 +16,11 @@
         <put-attribute name="content" value="/pages/foradmin.jsp"/>
     </definition>
 
-    <definition name="registration/edit" extends="template">
-        <put-attribute name="content" value="/pages/sections/registration_form.jsp"/>
+    <definition name="user/edit" extends="template">
+        <put-attribute name="content" value="/pages/sections/user_registration_form.jsp"/>
     </definition>
 
-    <definition name="registration/hello" extends="template">
-        <put-attribute name="content" value="/pages/sections/registration_hello.jsp"/>
+    <definition name="user/profile" extends="template">
+        <put-attribute name="content" value="/pages/sections/user_view_profile.jsp"/>
     </definition>
 </tiles-definitions>

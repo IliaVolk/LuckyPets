@@ -3,12 +3,13 @@ package com.luckypets.dao.impl;
 import com.luckypets.dao.UserDao;
 import com.luckypets.entity.User;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-//@Repository
+@Repository
 @Transactional
 public class UserDaoImpl extends AbstractDao implements UserDao {
     @Override

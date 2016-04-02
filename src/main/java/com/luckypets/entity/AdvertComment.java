@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "advert_comments")
+@Table(name = "advert_comment")
 public class AdvertComment implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
