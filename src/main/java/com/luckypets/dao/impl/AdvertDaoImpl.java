@@ -42,6 +42,7 @@ public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
                 Restrictions.eq("advertType", advertType)).addOrder(
                 Order.desc("creationDate")
         ).list();
+        //TODO: do something with it
         Iterator<Advert> i = adverts.iterator();
         while (i.hasNext()) {
             if (!i.next().getAnimalTypes().contains(animalType)) {
@@ -53,6 +54,7 @@ public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
 
     @Override
     public Advert getAdvertWithComments(long id) {
+        //TODO: find better way to unproxy
         Advert advert = (Advert) getSession().get(Advert.class, id);
         advert.getAnimalTypes().toString();
         advert.getAdvertComments().get(0);

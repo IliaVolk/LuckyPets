@@ -40,6 +40,7 @@ public class UserDaoImpl extends AbstractDao implements UserDao {
         User user = (User) getSession().createCriteria(User.class).
                 add(Restrictions.eq("login", login)).uniqueResult();
         //crutch for unproxy lazy collections
+        //TODO: do something
         user.getClinicComments().get(0);
         user.getAdvertComments().get(0);
         user.getAdverts().get(0);

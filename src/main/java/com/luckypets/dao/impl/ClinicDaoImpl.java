@@ -32,6 +32,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
         List<Clinic> clinics = getSession().createCriteria(Clinic.class).
                 addOrder(Order.desc("creationDate")).list();
         Iterator<Clinic> i = clinics.iterator();
+        //TODO: out of place
         while (i.hasNext()) {
             if (!i.next().getAnimalTypes().contains(animalType)) {
                 i.remove();
@@ -47,6 +48,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
                                    AnimalType animalType,
                                    int beginIndex, int count) {
         List<Clinic> clinics = getSession().createCriteria(Clinic.class).list();
+        //TODO: this is going too far
         Iterator<Clinic> i = clinics.iterator();
         while (i.hasNext()) {
             Clinic current = i.next();
@@ -62,6 +64,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
                         o2.getLatLng().distance(latLng));
             }
         });
+        //TODO: too too far
         return clinics.subList(beginIndex, beginIndex + count);
     }
 
@@ -69,6 +72,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
     @Transactional
     public Clinic getClinicWithComments(long id) {
         Clinic clinic = (Clinic) getSession().get(Clinic.class, id);
+        //TODO: unproxy
         clinic.getComments().get(0);
         clinic.getContactEmails().get(0);
         clinic.getAnimalTypes().contains(AnimalType.CAT);

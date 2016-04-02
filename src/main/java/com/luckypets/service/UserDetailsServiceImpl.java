@@ -22,7 +22,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         User user = userService.getUser(email);
-        //TODO: разобраться что здесь должно происходить
         Set<GrantedAuthority> roles = new HashSet<>();
         switch (user.getRole()) {
             case ROLE_USER:
