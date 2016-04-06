@@ -30,7 +30,8 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
     @Transactional
     public List<Clinic> getClinics(int beginIndex, int count, AnimalType animalType) {
         List<Clinic> clinics = getSession().createCriteria(Clinic.class).
-                addOrder(Order.desc("creationDate")).list();
+                //addOrder(Order.desc("creationDate")).
+                        list();
         Iterator<Clinic> i = clinics.iterator();
         //TODO: out of place
         while (i.hasNext()) {
@@ -65,7 +66,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
             }
         });
         //TODO: too too far
-        return clinics.subList(beginIndex, beginIndex + count);
+        return Util.sublist(clinics, beginIndex, beginIndex + count);
     }
 
     @Override
@@ -76,6 +77,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
         clinic.getComments().get(0);
         clinic.getContactEmails().get(0);
         clinic.getAnimalTypes().contains(AnimalType.CAT);
+        clinic.getLatLng().getLat();
         return clinic;
     }
 

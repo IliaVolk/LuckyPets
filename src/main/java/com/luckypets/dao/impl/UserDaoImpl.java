@@ -11,6 +11,9 @@ import java.util.List;
 
 @Repository
 @Transactional
+/**
+ * should not be used manually for saving users
+ */
 public class UserDaoImpl extends AbstractDao implements UserDao {
     @Override
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)

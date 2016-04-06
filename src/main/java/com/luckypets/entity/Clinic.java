@@ -1,5 +1,6 @@
 package com.luckypets.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.luckypets.entity.enums.AnimalType;
 
 import javax.persistence.*;
@@ -15,10 +16,10 @@ public class Clinic implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private long id;
+
     @Column(name = "title")
     @Size(max = 63)
     private String title;
-
 
     @OneToOne
     @JoinColumn(name = "lat_lng_id")
@@ -28,18 +29,21 @@ public class Clinic implements Serializable {
     @Size(max = 255)
     private String description;
 
+    @JsonIgnore
     @ElementCollection
     @CollectionTable(name = "clinic_emails",
             joinColumns = @JoinColumn(name = "clinic_id"))
     @Column(name = "email")
     private List<String> contactEmails;
 
+    @JsonIgnore
     @ElementCollection
     @CollectionTable(name = "clinic_animal_types",
             joinColumns = @JoinColumn(name = "clinic_id"))
     @Column(name = "animal")
     private Set<AnimalType> animalTypes;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "clinic", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @OrderBy("creationDate DESC ")
     private List<ClinicComment> comments;
@@ -121,7 +125,7 @@ public class Clinic implements Serializable {
         return result;
     }
 
-    public double getMark() {
+    public double mark() {
         double mark = 0;
         for (ClinicComment comment : comments) {
             mark += comment.getMark();
@@ -136,10 +140,10 @@ public class Clinic implements Serializable {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
-                ", contactEmails=" + contactEmails +
+                // ", contactEmails=" + contactEmails +
                 ", latLng=" + latLng +
-                ", mark='" + getMark() + "'" +
-                ", animalTypes=" + animalTypes +
+                //", mark='" + getMark() + "'" +
+                //", animalTypes=" + animalTypes +
                 '}';
     }
 }

@@ -53,6 +53,7 @@ public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
     }
 
     @Override
+    @Transactional
     public Advert getAdvertWithComments(long id) {
         //TODO: find better way to unproxy
         Advert advert = (Advert) getSession().get(Advert.class, id);

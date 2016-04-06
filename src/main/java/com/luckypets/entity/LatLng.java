@@ -15,6 +15,15 @@ public class LatLng {
     @Column(name = "lng")
     private double lng;//longitude - долгота
 
+    public LatLng() {
+    }
+
+    public LatLng(double lat, double lng) {
+        this.lat = lat;
+        this.lng = lng;
+    }
+
+
     public long getId() {
         return id;
     }
@@ -79,8 +88,8 @@ public class LatLng {
     @Override
     public String toString() {
         return "LatLng{" +
-                "id=" + id +
-                ", lat=" + lat +
+                //"id=" + id +
+                "lat=" + lat +
                 ", lng=" + lng +
                 '}';
     }

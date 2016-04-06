@@ -14,9 +14,35 @@
         <jstl.version>1.2</jstl.version>
         <spring.securiry>3.2.0.RELEASE</spring.securiry>
         <tiles.version>2.2.2</tiles.version>
+        <jackson.version>2.6.3</jackson.version>
     </properties>
 
     <dependencies>
+        <!--mockito-->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+        </dependency>
+
+        <!-- Need this for json to/from object -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.2.1</version>
+            <!-- makesure correct version here -->
+        </dependency>
         <!--Hibernate classes begin-->
 
 

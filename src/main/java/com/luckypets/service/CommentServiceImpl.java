@@ -10,6 +10,7 @@ import com.luckypets.entity.Clinic;
 import com.luckypets.entity.ClinicComment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Component
@@ -24,7 +25,7 @@ public class CommentServiceImpl implements CommentService {
     private AdvertCommentDao advertCommentDao;
 
     @Override
-    @Transactional
+    @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
     public void saveClinicComment(long clinicId, ClinicComment comment) throws BadRequestException {
         Clinic clinic = clinicDao.getClinic(clinicId);
         if (clinic == null) throw new BadRequestException(
@@ -34,7 +35,7 @@ public class CommentServiceImpl implements CommentService {
     }
 
     @Override
-    @Transactional
+    @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
     public void saveAdvertComment(long advertId, AdvertComment comment) throws BadRequestException {
         Advert advert = advertDao.getAdvert(advertId);
         if (advert == null) throw new BadRequestException(
