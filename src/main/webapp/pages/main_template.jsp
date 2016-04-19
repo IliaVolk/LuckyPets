@@ -7,6 +7,8 @@
   <link href="<c:url value="/resources/css/bootstrap.css" />" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="<c:url value="/resources/css/jumbotron-narrow.css" />" rel="stylesheet">
+  <script type="text/javascript" src="<c:url value="/resources/js/angular.min.js"/>"></script>
+  <script type="text/javascript" src="<c:url value="/resources/js/clinics.js"/>"></script>
 </head>
 <body>
 <div id="container">

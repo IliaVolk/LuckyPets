@@ -1,5 +1,6 @@
 package com.luckypets.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.luckypets.entity.enums.UserRole;
 
 import javax.persistence.*;
@@ -26,20 +27,24 @@ public class User implements Serializable {
     //@Size(min = 4, max = 40, message = "must be between 4 and 19 characters long")
     @Column(name = "password")
     //@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "must be alphanumerical")
+    @JsonIgnore
     private String password;
 
     @Enumerated
     @Column(name = "role")
     private UserRole role;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     @OrderBy("creationDate DESC ")
     private List<ClinicComment> clinicComments;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     @OrderBy("creationDate DESC ")
     private List<Advert> adverts;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     @OrderBy("creationDate DESC ")
     private List<AdvertComment> advertComments;

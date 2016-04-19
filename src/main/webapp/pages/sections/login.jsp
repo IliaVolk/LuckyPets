@@ -17,7 +17,7 @@
             <input id="remember_me" type="checkbox" placeholder="Remember me"
                    name=""/><!--must be implemented on frontend-->
         </form>
-        <s:url value="/registration" var="registrationUrl">
+        <s:url value="/user" var="registrationUrl">
             <s:param name="new" value=""/>
         </s:url>
         <a href="${registrationUrl}"><strong>Зарегистрироваться!</strong></a>

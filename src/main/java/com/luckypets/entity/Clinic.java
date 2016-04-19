@@ -2,16 +2,31 @@ package com.luckypets.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.luckypets.entity.enums.AnimalType;
+import com.luckypets.entity.enums.District;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 @Entity
 @Table(name = "clinic")
 public class Clinic implements Serializable {
+
+    /*
+    поля:
+    #район для поиска по району
+    #адрес клиники
+    номер телефона
+     */
+    /*
+    запросы:
+    поиск клиник по району и типу\без типа
+    по радиусу и типу\без типа
+
+    */
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
@@ -29,15 +44,21 @@ public class Clinic implements Serializable {
     @Size(max = 255)
     private String description;
 
-    @JsonIgnore
-    @ElementCollection
+    @Column(name = "district")
+    private District district;
+
+    @Column(name = "address")
+    @Size(max = 60)
+    private String address;
+    //@JsonIgnore
+    @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "clinic_emails",
             joinColumns = @JoinColumn(name = "clinic_id"))
     @Column(name = "email")
-    private List<String> contactEmails;
+    private Set<String> contactEmails;
 
-    @JsonIgnore
-    @ElementCollection
+    //@JsonIgnore
+    @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "clinic_animal_types",
             joinColumns = @JoinColumn(name = "clinic_id"))
     @Column(name = "animal")
@@ -73,12 +94,30 @@ public class Clinic implements Serializable {
         this.comments = comments;
     }
 
-    public List<String> getContactEmails() {
+    public Set<String> getContactEmails() {
         return contactEmails;
     }
 
     public void setContactEmails(List<String> contactEmails) {
-        this.contactEmails = contactEmails;
+        this.contactEmails = new HashSet<>(
+                contactEmails
+        );
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public District getDistrict() {
+        return district;
+    }
+
+    public void setDistrict(District district) {
+        this.district = district;
     }
 
     public long getId() {

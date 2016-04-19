@@ -4,7 +4,10 @@ import com.luckypets.dao.ClinicDao;
 import com.luckypets.entity.Clinic;
 import com.luckypets.entity.LatLng;
 import com.luckypets.entity.enums.AnimalType;
+import com.luckypets.entity.enums.District;
+import org.hibernate.Criteria;
 import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,11 +31,17 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
     @Override
     @SuppressWarnings("unchecked")
     @Transactional
-    public List<Clinic> getClinics(int beginIndex, int count, AnimalType animalType) {
+    public List<Clinic> getClinics(int beginIndex, int count, AnimalType animalType,
+                                   District district) {
         List<Clinic> clinics = getSession().createCriteria(Clinic.class).
+                add(Restrictions.eq("district", district)).
+                setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY).
                 //addOrder(Order.desc("creationDate")).
                         list();
+
+
         Iterator<Clinic> i = clinics.iterator();
+
         //TODO: out of place
         while (i.hasNext()) {
             if (!i.next().getAnimalTypes().contains(animalType)) {
@@ -75,7 +84,7 @@ public class ClinicDaoImpl extends AbstractDao implements ClinicDao {
         Clinic clinic = (Clinic) getSession().get(Clinic.class, id);
         //TODO: unproxy
         clinic.getComments().get(0);
-        clinic.getContactEmails().get(0);
+        clinic.getContactEmails().contains(new Object());
         clinic.getAnimalTypes().contains(AnimalType.CAT);
         clinic.getLatLng().getLat();
         return clinic;

@@ -2,7 +2,6 @@ package com.luckypets.controller.ajax;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonView;
 import com.luckypets.dao.ClinicDao;
 import com.luckypets.entity.LatLng;
 import com.luckypets.entity.ajax.AjaxClinicResponseBody;
@@ -40,7 +39,6 @@ public class AjaxController {
         }
     }
 
-    @JsonView(Views.ClinicsInRadius.class)
     @RequestMapping(value = "/ajax", method = RequestMethod.POST)
     @ResponseBody
     public SimpleJsonResponse getAjax(@RequestBody String request) {
@@ -54,7 +52,6 @@ public class AjaxController {
     // @ResponseBody, not necessary, since class is annotated with @RestController
     // @RequestBody - Convert the json data into object (SearchCriteria) mapped by field name.
     // @JsonView(Views.Public.class) - Optional, filters json data to display.
-    @JsonView(Views.ClinicsInRadius.class)
     @RequestMapping(value = "/search/api/articles", method = RequestMethod.POST)
     @ResponseBody
     public AjaxClinicResponseBody getClinicsInRadius(@RequestBody

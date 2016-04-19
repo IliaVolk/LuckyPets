@@ -5,6 +5,8 @@
 <div class="container">
 
     <div class="jumbotron" style="margin-top: 20px;">
+        <s:url value="/articles" var="articleUrl"/>
+        <a href="${articleUrl}">Articles(clinics)</a>
         <h1>Devcolibri.com</h1>
         <p class="lead">Devcolibri - это сервис предоставляющий всем желающим возможность обучаться программированию.</p>
         <s:url value="/foradmin" var="adminUrl"/>

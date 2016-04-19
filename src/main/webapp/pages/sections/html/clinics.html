@@ -1,0 +1,30 @@
+<section class="nav nav-pills">
+    <form name="navForm" role="form"
+          ng-submit="navForm.$valid && clinics.getClinics()"
+          novalidate>
+        <select class="form-control" ng-model="clinics.animalType" required>
+            <option ng-repeat="option in clinics.animalTypeList"
+                    value="{{option}}">{{option}}
+            </option>
+        </select>
+        <input type="submit" value="Submit">
+        <section>
+            <h4>Clinics</h4>
+            <blockquote ng-repeat="clinic in clinics.clinicList">
+                <b class="clearfix">Name: {{clinic.title}}</b>
+                <span class="clearfix">Desc: {{clinic.description}}</span>
+                <span class="clearfix">LatLng: {{clinic.latLng.lat}}, {{ clinic.latLng.lng}}</span>
+                <ul>
+                    <li ng-repeat="email in clinic.contactEmails">
+                        {{email}}
+                    </li>
+                </ul>
+                <ul>
+                    <li ng-repeat="animal in clinic.animalTypes">
+                        {{animal}}
+                    </li>
+                </ul>
+            </blockquote>
+        </section>
+    </form>
+</section>

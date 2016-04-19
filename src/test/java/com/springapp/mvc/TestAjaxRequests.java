@@ -4,8 +4,10 @@ import com.luckypets.config.DataSourceConfig;
 import com.luckypets.config.HibernateConfig;
 import com.luckypets.config.Initializer;
 import com.luckypets.config.WebAppConfig;
+import com.luckypets.entity.ajax.AjaxClinicByAnimalTypeAndDistrictRequest;
 import com.luckypets.entity.ajax.ClinicsInRadiusSearchCriteria;
 import com.luckypets.entity.enums.AnimalType;
+import com.luckypets.entity.enums.District;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +19,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.web.context.WebApplicationContext;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -37,6 +41,33 @@ public class TestAjaxRequests {
     }
 
     //@Test
+    public void testClinicAnimalTypeRequest() throws Exception {
+        mockMvc.perform(get("/ajax/animalList")).
+                andDo(MockMvcResultHandlers.print()).
+                andExpect(status().isOk());
+    }
+
+    @Test
+    public void testClinicComments() throws Exception {
+        mockMvc.perform(get("/ajax/clinics").param("clinicId", "1")).
+                andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
+    }
+
+    //@Test
+    public void testClinicsByAnimalType() throws Exception {
+        AjaxClinicByAnimalTypeAndDistrictRequest request = new AjaxClinicByAnimalTypeAndDistrictRequest();
+        request.setBeginIndex(0);
+        request.setCount(10);
+        request.setAnimalType(AnimalType.DOG);
+        request.setDistrict(District.Svyatoshinski);
+        System.out.println(new String(TestUtil.convertObjectToJsonBytes(request)));
+        mockMvc.perform(post("/ajax/clinics").contentType(TestUtil.APPLICATION_JSON_UTF8)
+                .content(TestUtil.convertObjectToJsonBytes(request)))
+                .andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
+    }
+
+
+    //@Test
     public void testSimpleAjax() throws Exception {
         String request = "request";
         mockMvc.perform(post("/ajax").contentType(TestUtil.APPLICATION_JSON_UTF8)
@@ -44,7 +75,7 @@ public class TestAjaxRequests {
                 andDo(MockMvcResultHandlers.print());
     }
 
-    @Test
+    //@Test
     public void testClinicsInRadius() {
         try {
             ClinicsInRadiusSearchCriteria request = new ClinicsInRadiusSearchCriteria();
@@ -53,11 +84,13 @@ public class TestAjaxRequests {
 
             System.out.println(request);
             System.out.println(new String(TestUtil.convertObjectToJsonBytes(request)));
-            System.out.println(mockMvc.perform(post("/search/api/articles").
+            System.out.println(mockMvc.perform(post("/ajax/clinics").
                             contentType(TestUtil.APPLICATION_JSON_UTF8).
                             content(TestUtil.convertObjectToJsonBytes(request)))
-                            .andDo(MockMvcResultHandlers.print()).andReturn()
+                            .andDo(MockMvcResultHandlers.print()).andExpect(status().isOk())
+                            .andReturn()
                     //.getAsyncResult().toString()
+
             );
         } catch (Exception e) {
             e.printStackTrace();

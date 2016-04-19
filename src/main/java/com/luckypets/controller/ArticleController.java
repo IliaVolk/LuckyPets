@@ -43,6 +43,12 @@ public class ArticleController {
         return "";//anywhere
     }
 
+    @RequestMapping
+    public String getClinicsPage() {
+        return "articles";
+    }
+
+    /*@Deprecated
     @RequestMapping(value = "/clinics", method = RequestMethod.GET)
     public String getClinics(@RequestParam("beginIndex") int beginIndex,
                              @RequestParam("count") int count,
@@ -50,8 +56,9 @@ public class ArticleController {
                              Model model) {
         model.addAttribute("clinics", clinicDao.getClinics(beginIndex, count, animalType));
         return "articles/clinics";
-    }
+    }*/
 
+    @Deprecated
     @RequestMapping(value = "/clinics/around", method = RequestMethod.GET)
     public String getClinics(//TODO: better make object "ClinicRequest"
                              //TODO: or make LatLng separated
@@ -72,6 +79,7 @@ public class ArticleController {
         return "articles/clinics";
     }
 
+    @Deprecated
     @RequestMapping(value = "/adverbs", method = RequestMethod.GET)
     public String getAdverbs(//TODO: better make object "AdverbRequest"
                              @RequestParam("beginIndex") int beginIndex,

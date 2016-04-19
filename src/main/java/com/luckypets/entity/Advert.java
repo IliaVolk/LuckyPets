@@ -13,11 +13,22 @@ import java.util.Set;
 @Entity
 @Table(name = "advert")
 public class Advert implements Serializable {//объявление
+    /*
+    поля:
+    номер телефона
+    емейл
+    район
+     */
+    /*
+    запросы:
+
+     */
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    //удалить
     @Column(name = "title")
     @Size(max = 63)
     private String title;
