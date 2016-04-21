@@ -14,4 +14,5 @@ LuckyPets
 Команда проекту: Волк Ілля, Рзаєва Ельвіра
 
 Діаграма класів:
+
 ![diagram](https://cloud.githubusercontent.com/assets/15018651/14726592/005c55b4-082c-11e6-927d-63580fba7ea3.png)
