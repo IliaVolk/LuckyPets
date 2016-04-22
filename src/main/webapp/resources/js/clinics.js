@@ -81,7 +81,7 @@
                 //$http.post now takes 2 parameters:
                 //1. request url
                 //2. request object
-                //request object becomes a parameter of controller.ajax.GeneralController
+                //request object becomes a parameter of controller.ajax.ClinicsController
                 //method public List<Clinic> getClinicsByAnimalType
                 //object is JSON representation of
                 //entity.ajax.AjaxClinicByAnimalTypeAndDistrictRequest
