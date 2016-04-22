@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.luckypets.entity</OriginalElement>
+  <nodes>
+    <node x="-41.614583333333314" y="804.0">com.luckypets.entity.Clinic</node>
+    <node x="-159.0" y="105.0">com.luckypets.entity.Advert</node>
+    <node x="-93.97916666666663" y="360.0">com.luckypets.entity.User</node>
+    <node x="150.75" y="626.0">com.luckypets.entity.LatLng</node>
+    <node x="-59.24999999999997" y="593.0">com.luckypets.entity.ClinicComment</node>
+    <node x="-60.64062499999997" y="-84.0">com.luckypets.entity.AdvertComment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.luckypets.entity.ClinicComment" target="com.luckypets.entity.User">
+      <point x="-47.5" y="-80.5" />
+      <point x="-11.749999999999972" y="568.0" />
+      <point x="-29.72916666666663" y="568.0" />
+      <point x="-64.25" y="91.5" />
+    </edge>
+    <edge source="com.luckypets.entity.User" target="com.luckypets.entity.Advert">
+      <point x="-96.375" y="-91.5" />
+      <point x="-61.85416666666663" y="335.0" />
+      <point x="-97.25" y="335.0" />
+      <point x="-61.75" y="102.5" />
+    </edge>
+    <edge source="com.luckypets.entity.AdvertComment" target="com.luckypets.entity.Advert">
+      <point x="-25.5" y="69.5" />
+      <point x="15.859375000000028" y="80.0" />
+      <point x="26.25" y="80.0" />
+      <point x="61.75" y="-102.5" />
+    </edge>
+    <edge source="com.luckypets.entity.ClinicComment" target="com.luckypets.entity.Clinic">
+      <point x="47.5" y="80.5" />
+      <point x="83.25000000000003" y="779.0" />
+      <point x="101.38541666666669" y="779.0" />
+      <point x="0.0" y="-102.5" />
+    </edge>
+    <edge source="com.luckypets.entity.Advert" target="com.luckypets.entity.AdvertComment">
+      <point x="-61.75" y="-102.5" />
+      <point x="-97.25" y="80.0" />
+      <point x="-35.14062499999997" y="80.0" />
+      <point x="-76.5" y="69.5" />
+    </edge>
+    <edge source="com.luckypets.entity.Advert" target="com.luckypets.entity.User">
+      <point x="61.75" y="102.5" />
+      <point x="26.25" y="335.0" />
+      <point x="2.3958333333333712" y="335.0" />
+      <point x="-32.125" y="-91.5" />
+    </edge>
+    <edge source="com.luckypets.entity.AdvertComment" target="com.luckypets.entity.User">
+      <point x="76.5" y="69.5" />
+      <point x="117.859375" y="80.0" />
+      <point x="109.5" y="80.0" />
+      <point x="109.5" y="335.0" />
+      <point x="130.89583333333337" y="335.0" />
+      <point x="96.375" y="-91.5" />
+    </edge>
+    <edge source="com.luckypets.entity.Clinic" target="com.luckypets.entity.ClinicComment">
+      <point x="-95.33333333333331" y="-102.5" />
+      <point x="6.052083333333371" y="779.0" />
+      <point x="-11.749999999999972" y="779.0" />
+      <point x="-47.5" y="80.5" />
+    </edge>
+    <edge source="com.luckypets.entity.User" target="com.luckypets.entity.AdvertComment">
+      <point x="32.125" y="-91.5" />
+      <point x="66.64583333333337" y="335.0" />
+      <point x="98.5" y="335.0" />
+      <point x="98.5" y="80.0" />
+      <point x="66.85937500000003" y="80.0" />
+      <point x="25.5" y="69.5" />
+    </edge>
+    <edge source="com.luckypets.entity.Clinic" target="com.luckypets.entity.LatLng">
+      <point x="95.33333333333333" y="-102.5" />
+      <point x="196.71875" y="779.0" />
+      <point x="215.75" y="779.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.luckypets.entity.User" target="com.luckypets.entity.ClinicComment">
+      <point x="64.25" y="91.5" />
+      <point x="98.77083333333337" y="568.0" />
+      <point x="83.25000000000003" y="568.0" />
+      <point x="47.5" y="-80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="125.5" />
+  <SelectedNodes>
+    <node>com.luckypets.entity.AdvertComment</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
