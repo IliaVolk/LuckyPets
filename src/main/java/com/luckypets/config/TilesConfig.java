@@ -18,7 +18,7 @@ public class TilesConfig {
     @Bean
     public TilesConfigurer tilesConfigurer(){
         TilesConfigurer configurer = new TilesConfigurer();
-        configurer.setDefinitions(new String[]{"/pages/views.xml"});
+        configurer.setDefinitions("/pages/views.xml", "/pages/section-views.xml");
         configurer.setPreparerFactoryClass(SpringBeanPreparerFactory.class);
         return configurer;
     }

@@ -5,6 +5,7 @@ import com.luckypets.entity.Clinic;
 import java.io.Serializable;
 import java.util.List;
 
+@Deprecated
 public class AjaxClinicResponseBody implements Serializable {
 
     private List<Clinic> clinics;

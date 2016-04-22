@@ -1,5 +1,6 @@
 package com.luckypets.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.luckypets.entity.enums.AdvertType;
 import com.luckypets.entity.enums.AnimalType;
 
@@ -49,8 +50,10 @@ public class Advert implements Serializable {//объявление
     @CollectionTable(name = "advert_animal_types",
             joinColumns = @JoinColumn(name = "advert_id"))
     @Column(name = "animal")
+    //TODO: SET???
     private Set<AnimalType> animalTypes;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "advert", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @OrderBy("creationDate DESC ")
     private List<AdvertComment> advertComments;

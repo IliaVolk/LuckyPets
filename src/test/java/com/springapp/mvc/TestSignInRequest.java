@@ -1,9 +1,6 @@
 package com.springapp.mvc;
 
-import com.luckypets.config.DataSourceConfig;
-import com.luckypets.config.HibernateConfig;
-import com.luckypets.config.Initializer;
-import com.luckypets.config.WebAppConfig;
+import com.luckypets.config.*;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +18,8 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppC
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 @ContextConfiguration(classes = {Initializer.class,
-        WebAppConfig.class, HibernateConfig.class, DataSourceConfig.class})
+        WebAppConfig.class, HibernateConfig.class, DataSourceConfig.class,
+        SecurityConfig.class})
 public class TestSignInRequest {
 
     private MockMvc mockMvc;

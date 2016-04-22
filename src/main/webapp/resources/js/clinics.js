@@ -14,7 +14,7 @@
     //test controller
     //TODO: delete
     app.controller('HelloController', function () {
-        this.hello = hello;
+        this.hello = 'hello';
     });
 
     //clinics controller
@@ -81,7 +81,7 @@
                 //$http.post now takes 2 parameters:
                 //1. request url
                 //2. request object
-                //request object becomes a parameter of controller.ajax.GeneralController
+                //request object becomes a parameter of controller.ajax.ClinicsController
                 //method public List<Clinic> getClinicsByAnimalType
                 //object is JSON representation of
                 //entity.ajax.AjaxClinicByAnimalTypeAndDistrictRequest
@@ -96,10 +96,12 @@
             };
         }]);
 
-    /*app.directive('clinicsList', function(){
+    app.directive('clinicsList', function () {
      return {
-     restrict: 'E',
-     templateUrl: '/pages/sections/html/clinics.html'
+         restrict: 'E',
+         templateUrl: 'sections/clinics',
+         controller: 'ClinicsController',
+         controllerAs: 'clinics'
      };
-     });*/
+    });
 })();

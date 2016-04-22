@@ -4,8 +4,10 @@ import com.luckypets.config.DataSourceConfig;
 import com.luckypets.config.HibernateConfig;
 import com.luckypets.config.Initializer;
 import com.luckypets.config.WebAppConfig;
+import com.luckypets.entity.ajax.AjaxAdvertByAnimalTypeAndTypeRequest;
 import com.luckypets.entity.ajax.AjaxClinicByAnimalTypeAndDistrictRequest;
 import com.luckypets.entity.ajax.ClinicsInRadiusSearchCriteria;
+import com.luckypets.entity.enums.AdvertType;
 import com.luckypets.entity.enums.AnimalType;
 import com.luckypets.entity.enums.District;
 import org.junit.Before;
@@ -41,25 +43,43 @@ public class TestAjaxRequests {
     }
 
     //@Test
+    public void testAdvertCommentsRequest() throws Exception {
+        mockMvc.perform(get("/ajax/adverts").param("advertId", "3")).andDo(MockMvcResultHandlers.print())
+                .andExpect(status().isOk());
+    }
+
+    //@Test
+    public void testAdvertRequest() throws Exception {
+        AjaxAdvertByAnimalTypeAndTypeRequest request = new AjaxAdvertByAnimalTypeAndTypeRequest();
+        request.setAnimalType(AnimalType.DOG);
+        request.setAdvertType(AdvertType.GIVE);
+        request.setBeginIndex(0);
+        request.setCount(10);
+        mockMvc.perform(post("/ajax/adverts").contentType(TestUtil.APPLICATION_JSON_UTF8)
+                .content(TestUtil.convertObjectToJsonBytes(request))).andDo(MockMvcResultHandlers.print()).
+                andExpect(status().isOk());
+    }
+
+    //@Test
     public void testClinicAnimalTypeRequest() throws Exception {
         mockMvc.perform(get("/ajax/animalList")).
                 andDo(MockMvcResultHandlers.print()).
                 andExpect(status().isOk());
     }
 
-    @Test
+    //@Test
     public void testClinicComments() throws Exception {
         mockMvc.perform(get("/ajax/clinics").param("clinicId", "1")).
                 andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
     }
 
-    //@Test
+    @Test
     public void testClinicsByAnimalType() throws Exception {
         AjaxClinicByAnimalTypeAndDistrictRequest request = new AjaxClinicByAnimalTypeAndDistrictRequest();
         request.setBeginIndex(0);
         request.setCount(10);
         request.setAnimalType(AnimalType.DOG);
-        request.setDistrict(District.Svyatoshinski);
+        request.setDistrict(District.SVIATOSHINSKI);
         System.out.println(new String(TestUtil.convertObjectToJsonBytes(request)));
         mockMvc.perform(post("/ajax/clinics").contentType(TestUtil.APPLICATION_JSON_UTF8)
                 .content(TestUtil.convertObjectToJsonBytes(request)))

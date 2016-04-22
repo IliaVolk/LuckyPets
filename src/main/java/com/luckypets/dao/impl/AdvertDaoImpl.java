@@ -58,7 +58,8 @@ public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
         //TODO: find better way to unproxy
         Advert advert = (Advert) getSession().get(Advert.class, id);
         advert.getAnimalTypes().toString();
-        advert.getAdvertComments().get(0);
+        if (!advert.getAdvertComments().isEmpty())
+            advert.getAdvertComments().get(0);
         return advert;
     }
 

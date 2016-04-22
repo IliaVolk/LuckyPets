@@ -22,7 +22,6 @@ public class UserServiceImpl implements UserService {
         //User user = new User(login, "7110eda4d09e062aa5e4a390b0a572ac0d2c0220");
         //user.setRole(UserRole.ROLE_USER);
         User user = userDao.getUser(login);
-        System.out.println("searching for user " + login + "found: " + user.getLogin());
         if (user == null){
             throw new UsernameNotFoundException("login for \"" + login + "\" failed");
         }

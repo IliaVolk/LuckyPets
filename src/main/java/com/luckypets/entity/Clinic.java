@@ -45,6 +45,7 @@ public class Clinic implements Serializable {
     private String description;
 
     @Column(name = "district")
+    @JsonIgnore
     private District district;
 
     @Column(name = "address")
@@ -57,7 +58,7 @@ public class Clinic implements Serializable {
     @Column(name = "email")
     private Set<String> contactEmails;
 
-    //@JsonIgnore
+    @JsonIgnore
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "clinic_animal_types",
             joinColumns = @JoinColumn(name = "clinic_id"))

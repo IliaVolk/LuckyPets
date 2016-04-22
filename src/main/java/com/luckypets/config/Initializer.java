@@ -22,7 +22,7 @@ public class Initializer implements WebApplicationInitializer {
         ctx.register(TilesConfig.class);
         ctx.register(DataSourceConfig.class);
         ctx.register(HibernateConfig.class);
-
+        ctx.register(LocaleLanguagesConfig.class);
 
 
         ctx.setServletContext(servletContext);

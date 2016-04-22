@@ -2,6 +2,7 @@ package com.luckypets.entity.ajax;
 
 import com.luckypets.entity.enums.AnimalType;
 
+@Deprecated
 public class ClinicsInRadiusSearchCriteria {
     private int beginIndex;
     private int count;

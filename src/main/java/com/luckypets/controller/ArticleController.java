@@ -4,16 +4,12 @@ import com.luckypets.dao.AdvertDao;
 import com.luckypets.dao.ClinicDao;
 import com.luckypets.entity.Advert;
 import com.luckypets.entity.Clinic;
-import com.luckypets.entity.LatLng;
-import com.luckypets.entity.enums.AdvertType;
-import com.luckypets.entity.enums.AnimalType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
 
@@ -43,8 +39,20 @@ public class ArticleController {
         return "";//anywhere
     }
 
+    @RequestMapping(value = "/clinics", method = RequestMethod.GET, params = "new")
+    public String getNewClinicAndReturnPageWithRegistrationForm(Model model) {
+        model.addAttribute("clinic", new Clinic());
+        return "";
+    }
+
+    @RequestMapping(value = "/adverts", method = RequestMethod.GET, params = "new")
+    public String getNewAdvertAndReturnPageWithRegistrationForm(Model model) {
+        model.addAttribute("advert", new Advert());
+        return "";
+    }
+
     @RequestMapping
-    public String getClinicsPage() {
+    public String getArticlesPage() {
         return "articles";
     }
 
@@ -58,7 +66,7 @@ public class ArticleController {
         return "articles/clinics";
     }*/
 
-    @Deprecated
+    /*@Deprecated
     @RequestMapping(value = "/clinics/around", method = RequestMethod.GET)
     public String getClinics(//TODO: better make object "ClinicRequest"
                              //TODO: or make LatLng separated
@@ -77,9 +85,9 @@ public class ArticleController {
                 latLng, radiusInKilometers, animalType, beginIndex, count
         ));
         return "articles/clinics";
-    }
+    }*/
 
-    @Deprecated
+    /*@Deprecated
     @RequestMapping(value = "/adverbs", method = RequestMethod.GET)
     public String getAdverbs(//TODO: better make object "AdverbRequest"
                              @RequestParam("beginIndex") int beginIndex,
@@ -91,5 +99,5 @@ public class ArticleController {
                         animalType, type, beginIndex, count)
         );
         return "articles/adverbs";
-    }
+    }*/
 }

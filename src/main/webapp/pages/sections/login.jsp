@@ -23,7 +23,7 @@
         <a href="${registrationUrl}"><strong>Зарегистрироваться!</strong></a>
     </sec:authorize>
     <sec:authorize access="isAuthenticated()">
-        <h1>Ваш логин: <sec:authentication property="principal.username"/></h1>>
+        <h1>Ваш логин: <sec:authentication property="principal.username"/></h1>
         <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Выйти</a></p>
     </sec:authorize>
     <sec:authorize access="hasRole('ROLE_USER')">

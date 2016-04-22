@@ -1,5 +1,7 @@
 package com.luckypets.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
@@ -21,6 +23,7 @@ public class AdvertComment implements Serializable {
     @Column(name = "text")
     private String text;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "advert_id")
     private Advert advert;
