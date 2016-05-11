@@ -13,6 +13,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Component
 public class CommentServiceImpl implements CommentService {
     @Autowired
@@ -43,5 +45,15 @@ public class CommentServiceImpl implements CommentService {
         );
         comment.setAdvert(advert);
         advertCommentDao.saveComment(comment);
+    }
+
+    @Override
+    public List<ClinicComment> getClinicComments(long clinicId) {
+        return clinicDao.getClinicWithComments(clinicId).getComments();
+    }
+
+    @Override
+    public List<AdvertComment> getAdvertComments(long advertId) {
+        return advertDao.getAdvertWithComments(advertId).getAdvertComments();
     }
 }

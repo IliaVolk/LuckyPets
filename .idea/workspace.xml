@@ -8,229 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a060414-678f-4124-af53-45aa4ded9625" name="Default" comment="internationalization, angular directives api">
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_context_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_expression_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_jdbc_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_orm_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_test_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_tx_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_web_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\libraries\Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\Questions.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\entity.uml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets.war" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\DataSourceConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\HibernateConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\Initializer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\LocaleLanguagesConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\SecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\TilesConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\config\WebAppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\AdminController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ArticleController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\CommentController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\AdvertController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\AjaxController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\AjaxController$SimpleJsonResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\AjaxController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\ClinicController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\GeneralController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\InternationalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\controller\ajax\InternationalController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\AdvertCommentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\AdvertDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\ClinicCommentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\ClinicDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\AbstractDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\AdvertCommentDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\AdvertDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\ClinicCommentDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\ClinicDaoImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\ClinicDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\dao\impl\Util.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\Advert.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\AdvertComment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\Clinic.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\ClinicComment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\LatLng.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\User.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\ajax\AjaxAdvertByAnimalTypeAndTypeRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\ajax\AjaxClinicByAnimalTypeAndDistrictRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\ajax\AjaxClinicResponseBody.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\ajax\ClinicsInRadiusSearchCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\enums\AdvertType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\enums\AnimalType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\enums\District.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\enums\UserRole.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\entity\representation\ClinicInternationalRepresentation.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\BadRequestException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\CommentService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\CommentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\UserDetailsServiceImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\UserDetailsServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\com\luckypets\service\UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\classes\messages_ru_RU.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\antlr-2.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-beanutils-1.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-dbcp2-2.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-digester-2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-fileupload-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\commons-pool2-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\hibernate-commons-annotations-3.2.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\hibernate-core-3.6.9.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\hibernate-validator-4.2.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\jackson-annotations-2.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\jackson-core-2.6.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\jackson-databind-2.6.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\javassist-3.12.1.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\jcl-over-slf4j-1.5.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\mockito-all-1.9.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\mysql-connector-java-5.1.36.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\slf4j-api-1.7.20.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-aop-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-beans-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-context-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-core-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-expression-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-jdbc-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-orm-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-security-acl-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-security-config-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-security-core-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-security-taglibs-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-security-web-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-tx-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-web-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\spring-webmvc-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\tiles-api-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\tiles-core-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\tiles-jsp-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\tiles-servlet-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\tiles-template-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\lib\validation-api-1.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\messages\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\messages\messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\messages\messages_ru_RU.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\mvc-dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\articles.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\foradmin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\main_template.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\section-views.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\clinics.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\section_template.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\user_registration_form.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\sections\user_view_profile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\pages\views.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\css\jumbotron-narrow.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\css\signin.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\js\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\LuckyPets\resources\js\clinics.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\DataSourceConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\HibernateConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\Initializer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\LocaleLanguagesConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\SecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\TilesConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\config\WebAppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\AdminController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ArticleController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\CommentController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\AdvertController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\AjaxController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\AjaxController$SimpleJsonResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\AjaxController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\ClinicController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\GeneralController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\InternationalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\controller\ajax\InternationalController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\AdvertCommentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\AdvertDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\ClinicCommentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\ClinicDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\AbstractDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\AdvertCommentDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\AdvertDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\ClinicCommentDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\ClinicDaoImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\ClinicDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\dao\impl\Util.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\Advert.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\AdvertComment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\Clinic.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\ClinicComment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\LatLng.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\User.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\ajax\AjaxAdvertByAnimalTypeAndTypeRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\ajax\AjaxClinicByAnimalTypeAndDistrictRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\ajax\AjaxClinicResponseBody.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\ajax\ClinicsInRadiusSearchCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\enums\AdvertType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\enums\AnimalType.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\enums\District.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\enums\UserRole.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\entity\representation\ClinicInternationalRepresentation.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\BadRequestException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\CommentService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\CommentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\UserDetailsServiceImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\UserDetailsServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\com\luckypets\service\UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\classes\messages_ru_RU.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\AppTests.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestAdvertMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestAjaxRequests.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestClinicMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestRequests.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestSignInRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaIdeaProjects\LuckyPets\target\test-classes\com\springapp\mvc\TestUtil.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageUploadException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru_RU.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru_RU.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\JavaIdeaProjects\LuckyPets\src\main\java\com\luckypets\controller\CommentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/CommentController.java" />
     </list>
     <ignored path="LuckyPets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -260,14 +53,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - lucky_pets@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="lucky_pets" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -276,113 +61,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/views.xml">
+      <file leaf-file-name="ImageSavingTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="663">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClinicController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="731">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocaleLanguagesConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/LocaleLanguagesConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="680">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1479">
+              <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
               <folding>
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clinics.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js">
+      <file leaf-file-name="TestAjaxRequests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestAjaxRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1870">
-              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="1666">
+              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css">
+      <file leaf-file-name="TestAdvertMapping.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestAdvertMapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="121091">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+              <caret line="27" column="75" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="TestClinicMapping.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestClinicMapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="340">
-              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1054">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Questions.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Questions.txt">
+      <file leaf-file-name="TestEncoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31070495" vertical-offset="0" max-vertical-offset="383">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/angular.min.js">
+      <file leaf-file-name="TestRequests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="129234">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1309">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSignInRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestSignInRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="578">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageSaver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5146667" vertical-offset="232" max-vertical-offset="680">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvertController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java">
+      <file leaf-file-name="ImageUploadException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageUploadException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="510">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="969">
-              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2331#2332#0" expanded="false" />
-                <element signature="e#2378#2379#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -395,13 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/enums/UserRole.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/articles.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/main_template.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/sections/html/clinics.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/ajax/AjaxClinicByAnimalTypeRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/ajax/AjaxClinicByAnimalTypeAndDistrictRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/dao/ClinicDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/ClinicComment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/User.java" />
@@ -415,11 +186,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/ajax/ClinicsInRadiusSearchCriteria.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/Advert.java" />
         <option value="$PROJECT_DIR$/Questions.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/dao/impl/ClinicDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/dao/ClinicCommentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/dao/impl/ClinicCommentDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/enums/District.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/messages/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/config/LocalelanguagesConfig.java" />
@@ -432,11 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/Clinic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/entity/representation/ClinicInternationalRepresentation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/sections/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/articles.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/config/TilesConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/views.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/sections/section_template.jsp" />
@@ -445,7 +211,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestSignInRequest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/sections/clinics.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageUploadException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java" />
       </list>
     </option>
   </component>
@@ -579,63 +357,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LuckyPets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LuckyPets" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LuckyPets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LuckyPets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -665,13 +395,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuckyPets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuckyPets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'messages'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuckyPets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuckyPets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -692,40 +478,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LuckyPets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LuckyPets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -819,7 +571,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="representation" />
+              <option name="myItemId" value="enums" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -991,35 +743,7 @@
       <recent name="D:\JavaIdeaProjects\LuckyPets\src\main\webapp\pages\sections" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.0.M31">
-    <configuration default="false" name="TestAdvertMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springapp.mvc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LuckyPets" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springapp.mvc" />
-      <option name="MAIN_CLASS_NAME" value="com.springapp.mvc.TestAdvertMapping" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ImageSavingTests">
     <configuration default="false" name="TestEnumRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1135,6 +859,40 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImageSavingTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springapp.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LuckyPets" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springapp.mvc" />
+      <option name="MAIN_CLASS_NAME" value="com.springapp.mvc.ImageSavingTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1485,19 +1243,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.0.M31" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAdvertMapping" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestEnumRequest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestRequests" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestAjaxRequests" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestSignInRequest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestEnumRequest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestRequests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestAjaxRequests" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestSignInRequest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ImageSavingTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSignInRequest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAjaxRequests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRequests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestEnumRequest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestAdvertMapping" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ImageSavingTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSignInRequest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestAjaxRequests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestRequests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestEnumRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -1522,7 +1280,11 @@
       <workItem from="1461266766935" duration="4232000" />
       <workItem from="1461272828473" duration="9970000" />
       <workItem from="1461335231974" duration="2566000" />
-      <workItem from="1461342586051" duration="1193000" />
+      <workItem from="1461342586051" duration="4325000" />
+      <workItem from="1461436752956" duration="1607000" />
+      <workItem from="1461584429199" duration="602000" />
+      <workItem from="1462894691818" duration="24000" />
+      <workItem from="1462979671068" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="all configuration done">
       <created>1459434623732</created>
@@ -1578,11 +1340,23 @@
       <option name="project" value="LOCAL" />
       <updated>1461341939566</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="internationalization, angular directives api">
+      <created>1461347920543</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347920543</updated>
+    </task>
+    <task id="LOCAL-00011" summary="internationalization, angular directives api">
+      <created>1461348308832</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348308832</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136073000" />
+    <option name="totallyTimeSpent" value="145403000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1606,38 +1380,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3213703" sideWeight="0.17473525" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20801815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3213703" sideWeight="0.82526475" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24432677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3213703" sideWeight="0.82526475" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1670,7 +1445,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1686,88 +1461,137 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru_RU.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/articles.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="408">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/foradmin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="493">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main_template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="595">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/section-views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="5" column="109" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="663">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="969">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/LocaleLanguagesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="680">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="129234">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="121091">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Questions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.36" vertical-offset="63" max-vertical-offset="408">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="884">
+          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/WebAppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="680">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AjaxController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/section_template.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1173">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="-5.923077" vertical-offset="67" max-vertical-offset="442">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/Initializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/clinics.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/entity/enums/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/entity/enums/District.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1778,378 +1602,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestAjaxRequests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/entity/enums/District.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="1666">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/entity/enums/AdvertType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1054">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="697">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.jar!/org/apache/commons/dbcp2/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="16558">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk8.1/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1530">
+          <caret line="76" column="58" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
           <folding>
+            <element signature="e#0#3814#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#2172#2173#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="833">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1632">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/user_view_profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/user_registration_form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="680">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/TilesConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="442">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#592#593#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="935">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/BadRequestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="629">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java">
+    <entry file="jar://D:/Java/jdk8.1/src.zip!/java/sql/Wrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="714">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="1037">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/entity/Clinic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="2584">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1088">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1822#1823#0" expanded="false" />
-            <element signature="e#1851#1852#0" expanded="false" />
-            <element signature="e#1895#1896#0" expanded="false" />
-            <element signature="e#1931#1932#0" expanded="false" />
-            <element signature="e#1978#1979#0" expanded="false" />
-            <element signature="e#2012#2013#0" expanded="false" />
-            <element signature="e#2075#2076#0" expanded="false" />
-            <element signature="e#2121#2122#0" expanded="false" />
-            <element signature="e#2169#2170#0" expanded="false" />
-            <element signature="e#2200#2201#0" expanded="false" />
-            <element signature="e#2261#2262#0" expanded="false" />
-            <element signature="e#2301#2302#0" expanded="false" />
-            <element signature="e#2346#2347#0" expanded="false" />
-            <element signature="e#2382#2383#0" expanded="false" />
-            <element signature="e#2571#2572#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2647#2648#0" expanded="false" />
-            <element signature="e#2685#2686#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
-            <element signature="e#2753#2754#0" expanded="false" />
-            <element signature="e#2803#2804#0" expanded="false" />
-            <element signature="e#2843#2844#0" expanded="false" />
-            <element signature="e#2870#2871#0" expanded="false" />
-            <element signature="e#2895#2896#0" expanded="false" />
-            <element signature="e#2929#2930#0" expanded="false" />
-            <element signature="e#2957#2958#0" expanded="false" />
-            <element signature="e#2989#2990#0" expanded="false" />
-            <element signature="e#3017#3018#0" expanded="false" />
-            <element signature="e#3059#3060#0" expanded="false" />
-            <element signature="e#3093#3094#0" expanded="false" />
-            <element signature="e#3131#3132#0" expanded="false" />
-            <element signature="e#3165#3166#0" expanded="false" />
-            <element signature="e#3219#3220#0" expanded="false" />
-            <element signature="e#3265#3266#0" expanded="false" />
+            <element signature="e#0#3265#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/entity/representation/ClinicInternationalRepresentation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/Initializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1275">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2072#2073#0" expanded="false" />
-            <element signature="e#2103#2104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestSignInRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="578">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="561">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/section_template.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AjaxController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="442">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1173">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="357">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="697">
-          <caret line="2" column="66" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sections/clinics.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/articles.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="408">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/foradmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main_template.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="595">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/section-views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="5" column="109" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="663">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="867">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="731">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="799">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="969">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2331#2332#0" expanded="false" />
-            <element signature="e#2378#2379#0" expanded="false" />
+            <element signature="e#1365#2177#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/config/LocaleLanguagesConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="680">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1870">
-          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="663">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/angular.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="129234">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1003">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1938">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.3.RELEASE/spring-web-4.0.3.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="121091">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="493">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="jar://$PROJECT_DIR$/../apache-tomcat-9.0.0.M3/apache-tomcat-9.0.0.M3/lib/servlet-api.jar!/javax/servlet/http/HttpSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="340">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state vertical-scroll-proportion="-5.16" vertical-offset="92" max-vertical-offset="969">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Questions.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/resources/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31070495" vertical-offset="0" max-vertical-offset="383">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1479">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestAjaxRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="1666">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestAdvertMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="27" column="75" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestClinicMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1054">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1309">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestSignInRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="578">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageUploadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5146667" vertical-offset="232" max-vertical-offset="680">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

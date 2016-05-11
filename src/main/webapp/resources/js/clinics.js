@@ -59,7 +59,7 @@
                 //TODO: find better way
                 //success - registered callback function
                 //sets loaded comments as property of clinic
-                $http.get('/ajax/clinics?clinicId=' + clinic.id).success(function (data) {
+                $http.get('/ajax/comments/clinics?clinicId=' + clinic.id).success(function (data) {
                     clinic.comments = data;
                 });
             };
@@ -85,7 +85,7 @@
                 //method public List<Clinic> getClinicsByAnimalType
                 //object is JSON representation of
                 //entity.ajax.AjaxClinicByAnimalTypeAndDistrictRequest
-                $http.post('/ajax/clinics', {
+                $http.post('/ajax/clinics', {//must be named get or some other like it
                     beginIndex: 0,
                     count: 10,
                     animalType: self.animalType,

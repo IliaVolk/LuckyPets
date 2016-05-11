@@ -3,11 +3,13 @@ package com.luckypets.controller.ajax;
 
 import com.luckypets.dao.ClinicDao;
 import com.luckypets.entity.Clinic;
-import com.luckypets.entity.ClinicComment;
 import com.luckypets.entity.ajax.AjaxClinicByAnimalTypeAndDistrictRequest;
 import com.luckypets.entity.representation.ClinicInternationalRepresentation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -29,9 +31,22 @@ public class ClinicController extends InternationalController {
                 request.getAnimalType(), request.getDistrict());
         return prepareClinicListToConventionToJson(clinics, httpServletRequest.getLocale());
     }
-
-    @RequestMapping(method = RequestMethod.GET)
-    public List<ClinicComment> getClinicComments(@RequestParam int clinicId) {
-        return clinicDao.getClinicWithComments(clinicId).getComments();
+    /*@RequestMapping(value = "/clinics/new", method = RequestMethod.POST)
+    public String saveClinicFromForm(@Valid Clinic clinic, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return bindingResult.toString();//return back to clinic registration page
+        }
+        clinicDao.saveClinic(clinic);
+        return "";//return anywhere
     }
+
+
+
+    @RequestMapping(value = "/adverts", method = RequestMethod.GET, params = "new")
+    public String getNewAdvertAndReturnPageWithRegistrationForm(Model model) {
+        model.addAttribute("advert", new Advert());
+        return "";
+    }*/
+
+
 }

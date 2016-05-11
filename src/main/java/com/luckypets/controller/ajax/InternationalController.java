@@ -5,7 +5,6 @@ import com.luckypets.entity.enums.AnimalType;
 import com.luckypets.entity.representation.ClinicInternationalRepresentation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
-import org.springframework.web.servlet.LocaleResolver;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -16,9 +15,9 @@ public abstract class InternationalController {
     @Autowired
     protected MessageSource messageSource;
 
-    @Autowired
+    /*@Autowired
     protected LocaleResolver localeResolver;
-
+*/
     protected <E extends Enum<E>> String[] getStringArrayFromEnum(E[] e, Locale locale,
                                                                   MessageSource messageSource) {
         String[] names = new String[e.length];

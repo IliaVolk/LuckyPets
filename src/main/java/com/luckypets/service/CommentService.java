@@ -3,9 +3,16 @@ package com.luckypets.service;
 import com.luckypets.entity.AdvertComment;
 import com.luckypets.entity.ClinicComment;
 
+import java.util.List;
+
 
 public interface CommentService {
-    public void saveClinicComment(long clinicId, ClinicComment comment) throws BadRequestException;
+    void saveClinicComment(long clinicId, ClinicComment comment) throws BadRequestException;
 
-    public void saveAdvertComment(long advertId, AdvertComment comment) throws BadRequestException;
+    void saveAdvertComment(long advertId, AdvertComment comment) throws BadRequestException;
+
+    List<ClinicComment> getClinicComments(long clinicId);
+
+    List<AdvertComment> getAdvertComments(long advertId);
+
 }
