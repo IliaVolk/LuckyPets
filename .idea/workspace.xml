@@ -7,23 +7,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a060414-678f-4124-af53-45aa4ded9625" name="Default" comment="internationalization, angular directives api">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageUploadException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/AdvertController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/ClinicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/service/CommentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/InternationalController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/clinics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru_RU.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages_ru_RU.properties" />
+    <list default="true" id="8a060414-678f-4124-af53-45aa4ded9625" name="Default" comment="image upload and tests for it,&#10;exception handling">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\JavaIdeaProjects\LuckyPets\src\main\java\com\luckypets\controller\CommentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/CommentController.java" />
     </list>
     <ignored path="LuckyPets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +49,9 @@
       <file leaf-file-name="ImageSavingTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1479">
-              <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1326">
+              <caret line="60" column="69" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,8 +129,8 @@
       <file leaf-file-name="ImageSaver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5146667" vertical-offset="232" max-vertical-offset="680">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.696" vertical-offset="249" max-vertical-offset="697">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypets/controller/ajax/GeneralController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java" />
       </list>
     </option>
   </component>
@@ -1284,7 +1267,7 @@
       <workItem from="1461436752956" duration="1607000" />
       <workItem from="1461584429199" duration="602000" />
       <workItem from="1462894691818" duration="24000" />
-      <workItem from="1462979671068" duration="3965000" />
+      <workItem from="1462979671068" duration="4080000" />
     </task>
     <task id="LOCAL-00001" summary="all configuration done">
       <created>1459434623732</created>
@@ -1352,11 +1335,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461348308832</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="image upload and tests for it,&#10;exception handling">
+      <created>1462983843175</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1462983843175</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145403000" />
+    <option name="totallyTimeSpent" value="145518000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1439,7 +1428,8 @@
     <MESSAGE value="trying to integrate rest architecture" />
     <MESSAGE value="added simple 'articles' page with clinics, created angular.js module 'clinics'&#10;" />
     <MESSAGE value="internationalization, angular directives api" />
-    <option name="LAST_COMMIT_MESSAGE" value="internationalization, angular directives api" />
+    <MESSAGE value="image upload and tests for it,&#10;exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="image upload and tests for it,&#10;exception handling" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1708,8 +1698,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
-            <element signature="e#1365#2177#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#1310#2122#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1786,11 +1776,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImageSavingTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1479">
-          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1326">
+          <caret line="60" column="69" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1860,8 +1848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypets/service/ImageSaver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5146667" vertical-offset="232" max-vertical-offset="680">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.696" vertical-offset="249" max-vertical-offset="697">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
