@@ -3,11 +3,9 @@
         "-//Apache Software Foundation//DTD Tiles Configuration 2.2.2//EN"
         "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
 <tiles-definitions>
-    <definition name="sectionTemplate" template="/pages/sections/section_template.jsp"><!--Common template-->
-    </definition>
 
-    <definition name="sections/clinics" extends="sectionTemplate">
-        <put-attribute name="content" value="/pages/sections/clinics.jsp"/>
+
+    <definition name="sections/clinics" template="/pages/sections/clinics.jsp">
     </definition>
 
 </tiles-definitions>

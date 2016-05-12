@@ -68,13 +68,19 @@ public class TestAjaxRequests {
     }
 
     @Test
+    public void testDistrictListRequest() throws Exception {
+        mockMvc.perform(get("/ajax/districtList")).
+                andDo(MockMvcResultHandlers.print()).
+                andExpect(status().isOk());
+    }
+    @Test
     public void testClinicComments() throws Exception {
         mockMvc.perform(get("/ajax/comments/clinics").param("clinicId", "1")).
                 andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
     }
 
     @Test
-    public void testClinicsByAnimalType() throws Exception {
+    public void testClinicsByAnimalTypeAndDistrict() throws Exception {
         AjaxClinicByAnimalTypeAndDistrictRequest request = new AjaxClinicByAnimalTypeAndDistrictRequest();
         request.setBeginIndex(0);
         request.setCount(10);

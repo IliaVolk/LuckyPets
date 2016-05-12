@@ -11,6 +11,5 @@
   <h1>Header</h1>
   <spring:message code="Hello" text="default text"/>
   Current locale: ${pageContext.response.locale}
-  ${Hello}
 
 </div>

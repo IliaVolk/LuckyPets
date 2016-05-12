@@ -18,8 +18,7 @@ public abstract class InternationalController {
     /*@Autowired
     protected LocaleResolver localeResolver;
 */
-    protected <E extends Enum<E>> String[] getStringArrayFromEnum(E[] e, Locale locale,
-                                                                  MessageSource messageSource) {
+    protected <E extends Enum<E>> String[] getStringArrayFromEnum(E[] e, Locale locale) {
         String[] names = new String[e.length];
         for (int i = 0; i < e.length; i++) {
             names[i] = messageSource.getMessage(e[i].name(), null, locale);
@@ -42,8 +41,7 @@ public abstract class InternationalController {
                         new ClinicInternationalRepresentation(c,
                                 getStringArrayFromEnum(
                                         animalTypeArray,
-                                        locale,
-                                        messageSource),
+                                        locale),
                                 messageSource.getMessage(
                                         c.getDistrict().name(), null, locale)
                         );

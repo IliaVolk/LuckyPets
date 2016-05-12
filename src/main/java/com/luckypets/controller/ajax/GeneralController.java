@@ -16,7 +16,7 @@ public class GeneralController extends InternationalController {
     public String[] getAnimalList(HttpServletRequest request) {
         //Locale locale = localeResolver.resolveLocale(request);
         return getStringArrayFromEnum(AnimalType.values(),
-                request.getLocale(), messageSource);
+                request.getLocale());
         //localeResolver.resolveLocale(request), messageSource);
         ///old version
         /*AnimalType[] animalTypes = AnimalType.values();
@@ -30,7 +30,7 @@ public class GeneralController extends InternationalController {
     @RequestMapping(value = "/districtList")
     public String[] getDistrictList(HttpServletRequest request) {
         return getStringArrayFromEnum(District.values(),
-                request.getLocale(), messageSource);
+                request.getLocale());
         //localeResolver.resolveLocale(request), messageSource);
     }
 
