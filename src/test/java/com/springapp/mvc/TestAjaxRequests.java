@@ -42,13 +42,13 @@ public class TestAjaxRequests {
         this.mockMvc = webAppContextSetup(this.wac).build();
     }
 
-    //@Test
+    @Test
     public void testAdvertCommentsRequest() throws Exception {
-        mockMvc.perform(get("/ajax/adverts").param("advertId", "3")).andDo(MockMvcResultHandlers.print())
+        mockMvc.perform(get("/ajax/comments/adverts").param("advertId", "3")).andDo(MockMvcResultHandlers.print())
                 .andExpect(status().isOk());
     }
 
-    //@Test
+    @Test
     public void testAdvertRequest() throws Exception {
         AjaxAdvertByAnimalTypeAndTypeRequest request = new AjaxAdvertByAnimalTypeAndTypeRequest();
         request.setAnimalType(AnimalType.DOG);
@@ -60,16 +60,16 @@ public class TestAjaxRequests {
                 andExpect(status().isOk());
     }
 
-    //@Test
+    @Test
     public void testClinicAnimalTypeRequest() throws Exception {
         mockMvc.perform(get("/ajax/animalList")).
                 andDo(MockMvcResultHandlers.print()).
                 andExpect(status().isOk());
     }
 
-    //@Test
+    @Test
     public void testClinicComments() throws Exception {
-        mockMvc.perform(get("/ajax/clinics").param("clinicId", "1")).
+        mockMvc.perform(get("/ajax/comments/clinics").param("clinicId", "1")).
                 andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
     }
 

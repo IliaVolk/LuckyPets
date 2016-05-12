@@ -18,16 +18,14 @@ import java.util.Locale;
 public class ImageSavingTests {
 
     private ImageSaver imageSaver;
-    private ServletContext servletContext;
-    private HttpSession session;
     private HttpServletRequest request;
     private MultipartFile image;
 
     @Before
     public void before() throws IOException {
         imageSaver = new ImageSaver();
-        servletContext = Mockito.mock(ServletContext.class);
-        session = Mockito.mock(HttpSession.class);
+        ServletContext servletContext = Mockito.mock(ServletContext.class);
+        HttpSession session = Mockito.mock(HttpSession.class);
         request = Mockito.mock(HttpServletRequest.class);
         image = Mockito.mock(MultipartFile.class);
         Mockito.when(servletContext.getRealPath("/")).

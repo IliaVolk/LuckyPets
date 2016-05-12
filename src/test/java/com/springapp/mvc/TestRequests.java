@@ -5,7 +5,6 @@ import com.luckypets.config.HibernateConfig;
 import com.luckypets.config.Initializer;
 import com.luckypets.config.WebAppConfig;
 import org.junit.Before;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -36,7 +35,7 @@ public class TestRequests {
         this.mockMvc = webAppContextSetup(this.wac).build();
     }
 
-    @Test
+    //@Test
     public void testRadiusClinicsRequest() throws Exception {
         mockMvc.perform(get("/articles/clinics/around").
                 param("beginIndex", "0").param("count", "5").
@@ -69,7 +68,7 @@ public class TestRequests {
          */
     }
 
-    @Test
+    //@Test
     public void testEnumRequest() throws Exception {
         //Test for this
         /*

@@ -36,7 +36,7 @@ public class TestAdvertMapping {
 
     @Test
     public void getAdvertWithId3() {
-        Advert advert = advertDao.getAdvert(3);
+        Advert advert = advertDao.getAdvertWithComments(3);
         System.out.println(advert);
         System.out.println(advert.getAdvertComments());
         User user = userDao.getUserWithAllInfo(
