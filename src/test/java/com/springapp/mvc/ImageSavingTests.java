@@ -20,20 +20,19 @@ public class ImageSavingTests {
     private ImageSaver imageSaver;
     private HttpServletRequest request;
     private MultipartFile image;
+    private ServletContext servletContext;
 
     @Before
     public void before() throws IOException {
         imageSaver = new ImageSaver();
-        ServletContext servletContext = Mockito.mock(ServletContext.class);
+        servletContext = Mockito.mock(ServletContext.class);
         HttpSession session = Mockito.mock(HttpSession.class);
         request = Mockito.mock(HttpServletRequest.class);
         image = Mockito.mock(MultipartFile.class);
         Mockito.when(servletContext.getRealPath("/")).
                 thenReturn("D:\\JavaIdeaProjects\\LuckyPets\\src\\test\\java\\com\\springapp\\mvc");
 
-
         Mockito.when(session.getServletContext()).thenReturn(servletContext);
-
 
         Mockito.when(request.getLocale()).thenReturn(Locale.ENGLISH);
         Mockito.when(request.getSession()).thenReturn(session);
@@ -46,25 +45,34 @@ public class ImageSavingTests {
     @Test
     public void testImageSaver() throws IOException, ImageUploadException {
 
-
         Mockito.when(image.getContentType()).thenReturn("image/jpeg");
-
 
         imageSaver.saveImage("1.jpg", image, request);
     }
 
-    @Test
-    public void testImageWrongType() throws IOException, ImageUploadException {
-
+    @Test(expected = ImageUploadException.class)
+    public void testImageWrongType() throws Exception {
         Mockito.when(image.getContentType()).thenReturn("image/gif");
-
-
         try {
             imageSaver.saveImage("1.jpg", image, request);
         } catch (ImageUploadException e) {
             Assert.assertEquals("Only JPG image accepted", e.getMessage());
-            return;
+            throw e;
         }
         Assert.assertEquals("This code should not be executed", "This code executed");
+    }
+
+    @Test(expected = ImageUploadException.class)
+    public void testImageSavingBadPath() throws Exception {
+        Mockito.when(image.getContentType()).thenReturn("image/jpeg");
+        Mockito.when(servletContext.getRealPath("/")).thenReturn("bad");
+        try {
+            imageSaver.saveImage("1.jpg", image, request);
+        } catch (ImageUploadException e) {
+            Assert.assertEquals(e.getMessage(), "Cant open file");
+            throw e;
+        }
+        Assert.assertEquals("This code should not be executed", "This code executed");
+
     }
 }

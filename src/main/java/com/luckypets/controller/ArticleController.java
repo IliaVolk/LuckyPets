@@ -73,10 +73,7 @@ public class ArticleController {
         return "";
     }
 
-    @RequestMapping
-    public String getArticlesPage() {
-        return "articles";
-    }
+
 
     /*@Deprecated
     @RequestMapping(value = "/clinics", method = RequestMethod.GET)

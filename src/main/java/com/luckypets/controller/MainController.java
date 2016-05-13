@@ -19,4 +19,9 @@ public class MainController {
     public String getSection(@PathVariable String name) {
         return "sections/" + name;
     }
+
+    @RequestMapping(method = RequestMethod.GET, value = "articles")
+    public String getArticlesPage() {
+        return "articles";
+    }
 }
