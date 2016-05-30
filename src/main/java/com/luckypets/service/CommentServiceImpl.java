@@ -1,14 +1,10 @@
 package com.luckypets.service;
 
-import com.luckypets.dao.AdvertCommentDao;
-import com.luckypets.dao.AdvertDao;
-import com.luckypets.dao.ClinicCommentDao;
-import com.luckypets.dao.ClinicDao;
-import com.luckypets.entity.Advert;
-import com.luckypets.entity.AdvertComment;
-import com.luckypets.entity.Clinic;
-import com.luckypets.entity.ClinicComment;
+import com.luckypets.dao.*;
+import com.luckypets.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,24 +21,24 @@ public class CommentServiceImpl implements CommentService {
     private ClinicCommentDao clinicCommentDao;
     @Autowired
     private AdvertCommentDao advertCommentDao;
-
+    @Autowired
+    private UserDao userDao;
     @Override
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
-    public void saveClinicComment(long clinicId, ClinicComment comment) throws BadRequestException {
+    public void saveClinicComment(long clinicId, ClinicComment comment) {
         Clinic clinic = clinicDao.getClinic(clinicId);
-        if (clinic == null) throw new BadRequestException(
-                "Clinic with id='" + clinicId + "' does not exist");
+        User user = userDao.getUser(getCurrentUserName());
+        comment.setUser(user);
         comment.setClinic(clinic);
         clinicCommentDao.saveComment(comment);
     }
 
     @Override
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
-    public void saveAdvertComment(long advertId, AdvertComment comment) throws BadRequestException {
+    public void saveAdvertComment(long advertId, AdvertComment comment) {
         Advert advert = advertDao.getAdvert(advertId);
-        if (advert == null) throw new BadRequestException(
-                "Advert with id='" + advertId + "' does not exist"
-        );
+        User user = userDao.getUser(getCurrentUserName());
+        comment.setUser(user);
         comment.setAdvert(advert);
         advertCommentDao.saveComment(comment);
     }
@@ -55,5 +51,11 @@ public class CommentServiceImpl implements CommentService {
     @Override
     public List<AdvertComment> getAdvertComments(long advertId) {
         return advertDao.getAdvertWithComments(advertId).getAdvertComments();
+    }
+
+    private String getCurrentUserName() {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        return auth.getName();
+
     }
 }

@@ -8,8 +8,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <div>
-  <h1>Header</h1>
-  <spring:message code="Hello" text="default text"/>
-  Current locale: ${pageContext.response.locale}
-
+  <h1><spring:message code="LUCKY_PETS"/></h1>
 </div>

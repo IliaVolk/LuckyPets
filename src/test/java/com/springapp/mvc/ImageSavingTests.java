@@ -17,13 +17,14 @@ import java.util.Locale;
 
 public class ImageSavingTests {
 
-    private ImageSaver imageSaver;
-    private HttpServletRequest request;
-    private MultipartFile image;
-    private ServletContext servletContext;
+    private static ImageSaver imageSaver;
+    private static HttpServletRequest request;
+    private static MultipartFile image;
+    private static ServletContext servletContext;
 
     @Before
     public void before() throws IOException {
+        System.out.println("before");
         imageSaver = new ImageSaver();
         servletContext = Mockito.mock(ServletContext.class);
         HttpSession session = Mockito.mock(HttpSession.class);

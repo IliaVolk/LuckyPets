@@ -7,5 +7,7 @@
 
     <definition name="sections/clinics" template="/pages/sections/clinics.jsp">
     </definition>
+    <definition name="sections/adverts" template="/pages/sections/adverts.jsp">
+    </definition>
 
 </tiles-definitions>

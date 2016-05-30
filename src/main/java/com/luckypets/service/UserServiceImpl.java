@@ -15,8 +15,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getUser(String login) {
-        //User user = new User(login, "7110eda4d09e062aa5e4a390b0a572ac0d2c0220");
-        //user.setRole(UserRole.ROLE_USER);
+
         User user = userDao.getUser(login);
         if (user == null){
             throw new UsernameNotFoundException("login for \"" + login + "\" failed");
@@ -24,9 +23,6 @@ public class UserServiceImpl implements UserService {
 
         return user;
     }
-
-   /* @Autowired
-    ShaPasswordEncoder passwordEncoder;*/
 
     @Override
     public void saveUser(User user) {

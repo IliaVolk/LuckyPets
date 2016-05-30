@@ -15,11 +15,7 @@ public class HibernateConfig {
     public AnnotationSessionFactoryBean sessionFactory(BasicDataSource dataSource) {
         AnnotationSessionFactoryBean factory = new AnnotationSessionFactoryBean();
         factory.setDataSource(dataSource);
-        factory.setPackagesToScan(
-                new String[]{
-                        "com"
-                }
-        );//TODO: write better package name
+        factory.setPackagesToScan("com");//TODO: write better package name
         Properties properties = new Properties();
         properties.getProperty("dialect", "org.hibernate.dialect.MySQL5Dialect");
         factory.setHibernateProperties(properties);

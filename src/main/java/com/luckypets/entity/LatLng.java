@@ -1,5 +1,7 @@
 package com.luckypets.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -8,6 +10,7 @@ public class LatLng {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @JsonIgnore
     private long id;
 
     @Column(name = "lat")

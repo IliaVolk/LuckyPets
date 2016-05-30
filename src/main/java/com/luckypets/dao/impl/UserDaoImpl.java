@@ -22,6 +22,11 @@ public class UserDaoImpl extends AbstractDao implements UserDao {
     }
 
     @Override
+    public User getUser(int id) {
+        return (User) getSession().get(User.class, id);
+    }
+
+    @Override
     @SuppressWarnings("unckecked")
     /*request to data base includes criteria "User.class"
     and from list got one element*/

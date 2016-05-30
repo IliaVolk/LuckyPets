@@ -11,7 +11,7 @@
 
 
     <definition name="home" extends="template"><!--home page template-->
-        <put-attribute name="content" value="/pages/index.jsp"/>
+        <put-attribute name="content" value="/pages/articles.jsp"/>
     </definition>
     <definition name="foradmin" extends="template">
         <put-attribute name="content" value="/pages/foradmin.jsp"/>

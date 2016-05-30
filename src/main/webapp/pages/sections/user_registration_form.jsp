@@ -1,7 +1,8 @@
 <%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 
-<div>
-    <h2>Create a free Spitter account</h2>
+<div class="text-center">
+    <h2><s:message code="CreateNewAccount"/></h2>
 
     <sf:form method="POST" modelAttribute="user"
             ><!--enctype allows to send images
@@ -9,14 +10,14 @@
     <fieldset>
         <table cellspacing="0">
             <tr>
-                <th><label for="username">Username:</label></th>
+                <th><label for="username"><s:message code="Email"/> :</label></th>
                 <td>
                     <sf:input path="login" size="15" maxlength="15" id="username"/>
                     <sf:errors path="login" cssClass="error"/>
                 </td>
             </tr>
             <tr>
-                <th><label for="password">Password:</label></th>
+                <th><label for="password"><s:message code="Password"/> :</label></th>
                 <td><sf:password path="password" size="30"
                                  showPassword="true" id="password"/>
                     <sf:errors path="password" cssClass="error"/>
@@ -27,7 +28,7 @@
             <tr>
                 <th></th>
                 <td><input name="commit" type="submit"
-                           value="I accept. Create my account."/></td>
+                           value="<s:message code="CreateAccount"/> "/></td>
             </tr>
         </table>
     </fieldset>

@@ -7,6 +7,7 @@ import java.util.List;
 public interface UserDao {
     void saveUser(User user);
 
+    User getUser(int id);
     User getUser(String login);
 
     List<User> getAllUsers();

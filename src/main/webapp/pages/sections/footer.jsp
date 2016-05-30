@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: user
@@ -7,5 +8,5 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div>
-  <small>footer</small>
+  <small><s:message code="Made by"/></small>
 </div>

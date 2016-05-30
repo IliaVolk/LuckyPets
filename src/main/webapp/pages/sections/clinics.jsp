@@ -8,80 +8,91 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <section>
-    <sec:authorize access="isAuthenticated()">
-        <h1><s:message code="Hello"/>, <sec:authentication property="principal.username"/></h1>
-    </sec:authorize>
-    <sec:authorize access="!isAuthenticated()">
-        <h1>Аутенцифицируйтесь пожалуйста</h1>
-    </sec:authorize>
     <section class="nav nav-pills">
-        <!--ng-submit - any type of submit this form will call only javascript code in
-          quoted
-          navForm.$valid - angular validation, adds some donuts(css classes, ets)-->
         <form name="navForm" role="form"
-              ng-submit="navForm.$valid && clinics.getClinics()"
+              ng-submit="clinics.getClinics()"
               novalidate>
-            <!--ng-model - links <select> selected value with variable clinics.animal type,
-            defined in controller.
-            if there are no variable defined, it will be created, even global-->
-            <select class="form-control" ng-model="clinics.animalType" required>
-                <!--cycle in property
-                like
-                for (var option in clinics.animalTypeList){}
-                expression {{option}} displays value of javascript variable option,
-                defined in scope-->
+            <label>
+                <s:message code="animalType"/>
+                <select class="form-control" ng-model="clinics.animalType" required>
+
                 <option ng-repeat="option in clinics.animalTypeList"
                         value="{{$index}}">{{option}}
                 </option>
-            </select>
-            <!--as previos-->
-            <select class="form-control" ng-model="clinics.district" required>
-                <option ng-repeat="option in clinics.districtList"
-                        value="{{$index}}">{{option}}
-                </option>
-            </select>
-            <input type="submit" value="Submit">
+                </select>
+            </label>
+            <label>
+                <s:message code="district"/>
+                <select class="form-control" ng-model="clinics.district" required>
+                    <option ng-repeat="option in clinics.districtList"
+                            value="{{$index}}">{{option}}
+                    </option>
+                </select>
+            </label>
+            <input class="btn btn-default" type="submit" value="<s:message code="Submit"/>">
+        </form>
             <section>
-                <h4>Clinics</h4>
+                <h4><s:message code="Clinics"/></h4>
+
+                <div id="map" class="col-sm-10">
+
+                </div>
                 <blockquote ng-repeat="clinic in clinics.clinicList">
-                    <b class="clearfix">Name: {{clinic.title}}</b>
-                    <span class="clearfix">Desc: {{clinic.description}}</span>
-                    <span class="clearfix">District: {{clinic.district}}</span>
-                    <span class="clearfix">Address: {{clinic.address}}</span>
-                    <span class="clearfix">LatLng: {{clinic.latLng.lat}}, {{ clinic.latLng.lng}}</span>
-                    Emails:
+                    <b class="clearfix"><s:message code="ClinicName"/> : {{clinic.title}}</b>
+                    <span class="clearfix"><s:message code="Description"/> : {{clinic.description}}</span>
+                    <span class="clearfix"><s:message code="Region"/> : {{clinic.district}}</span>
+                    <span class="clearfix"><s:message code="Address"/> : {{clinic.address}}</span>
+                    <s:message code="Contacts"/> :
                     <ul>
                         <li ng-repeat="email in clinic.contactEmails">
                             {{email}}
                         </li>
                     </ul>
-                    Animals:
+                    <s:message code="Animals"/> :
                     <ul>
                         <li ng-repeat="animal in clinic.animalTypes">
                             {{animal}}
                         </li>
                     </ul>
-                    <!--ng-click - any click on this block will call javascript code in quotes
-                    calls method and passes parameter to it, defined in upper tag <section>-->
+
                     <div class="btn btn-block"
                          ng-click="clinics.toddleShowComments(clinic)">
-                        Comments
+                        <s:message code="Comments"/>
                     </div>
-                    <!--ng-show - displays tag if only value in quoted equals to true-->
                     <div ng-show="clinic.showComments">
-                        <ul>
-                            <li ng-repeat="comment in clinic.comments">
-                                Id: {{comment.id}}
-                                Date: {{comment.creationDate | date}}
-                                Text: {{comment.text}}
-                                User: {{comment.user.login}}
-                                Mark: {{comment.mark}}
-                            </li>
-                        </ul>
+                        <blockquote ng-repeat="comment in clinic.comments">
+                            <h6><s:message code="SentBy"/> : {{comment.user.login}} {{comment.creationDate | date}}</h6>
+                            {{comment.text}}<br/>
+                            <s:message code="Mark"/> : {{comment.mark}}
+                        </blockquote>
+                        <sec:authorize access="isAuthenticated()">
+                            <form name="commentForm" role="form"
+                                  ng-controller="CommentController as commentCtrl"
+                                  ng-submit="
+                              commentCtrl.addComment(clinics, clinic)"
+                                  novalidate>
+                                <select class="form-control" ng-model="commentCtrl.comment.mark"
+                                        required>
+                                    <option value="1">1 stars</option>
+                                    <option value="2">2 stars</option>
+                                    <option value="3">3 stars</option>
+                                    <option value="4">4 stars</option>
+                                    <option value="5">5 stars</option>
+                                </select>
+                            <textarea placeholder="Your comment" class="form-control"
+                                      ng-model="commentCtrl.comment.text" required></textarea>
+                                <input class="btn btn-default" type="submit" value="<s:message code="Submit"/>"
+                                       class="form-control"/>
+
+                            </form>
+                        </sec:authorize>
+
                     </div>
                 </blockquote>
             </section>
-        </form>
+
     </section>
 </section>

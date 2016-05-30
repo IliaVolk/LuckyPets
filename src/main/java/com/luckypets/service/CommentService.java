@@ -7,9 +7,9 @@ import java.util.List;
 
 
 public interface CommentService {
-    void saveClinicComment(long clinicId, ClinicComment comment) throws BadRequestException;
+    void saveClinicComment(long clinicId, ClinicComment comment);
 
-    void saveAdvertComment(long advertId, AdvertComment comment) throws BadRequestException;
+    void saveAdvertComment(long advertId, AdvertComment comment);
 
     List<ClinicComment> getClinicComments(long clinicId);
 

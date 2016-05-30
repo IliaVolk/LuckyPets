@@ -1,5 +1,6 @@
 package com.luckypets.controller.ajax;
 
+import com.luckypets.entity.enums.AdvertType;
 import com.luckypets.entity.enums.AnimalType;
 import com.luckypets.entity.enums.District;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,9 +30,13 @@ public class GeneralController extends InternationalController {
 
     @RequestMapping(value = "/districtList")
     public String[] getDistrictList(HttpServletRequest request) {
-        return getStringArrayFromEnum(District.values(),
-                request.getLocale());
+        return getStringArrayFromEnum(District.values(), request.getLocale());
         //localeResolver.resolveLocale(request), messageSource);
+    }
+
+    @RequestMapping(value = "/advertTypeList")
+    public String[] getAdvertTypeList(HttpServletRequest request) {
+        return getStringArrayFromEnum(AdvertType.values(), request.getLocale());
     }
 
 
