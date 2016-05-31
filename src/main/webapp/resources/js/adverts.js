@@ -27,7 +27,7 @@
                 }
             };
             self.addComment = function (advert, comment) {
-                $http.post("/ajax/adverts/" + advert.id + "/comments/" + comment.text, comment).
+                $http.post("/ajax/adverts/" + advert.id + "/comments", comment).
                     success(function (processedComment) {
                         if (!advert.comments) {
                             advert.comments = [];

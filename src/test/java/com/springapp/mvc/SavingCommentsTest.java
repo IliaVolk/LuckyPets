@@ -36,10 +36,66 @@ public class SavingCommentsTest {
         this.mockMvc = webAppContextSetup(this.wac).build();
     }
 
+    //@Test
+    public void testSavingAdvertComment() throws Exception {
+        class Text {
+            String text;
+
+            public String getText() {
+                return text;
+            }
+
+            public void setText(String text) {
+                this.text = text;
+            }
+        }
+        Text text = new Text();
+        text.setText("qwerty-");
+        byte[] bytes = TestUtil.convertObjectToJsonBytes(text);
+        System.out.println(new String(bytes));
+
+
+        mockMvc.perform(post("/ajax/adverts/1/comments").
+                content(bytes).contentType(TestUtil.APPLICATION_JSON_UTF8))
+                .andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
+
+    }
+
+
     @Test
     public void testSavingClinicComment() throws Exception {
 
-        mockMvc.perform(post("/ajax/clinics/1/comments/qwe/1"))
+        class PartialComment {
+            String text;
+            int mark;
+
+            public PartialComment(String text, int mark) {
+                this.text = text;
+                this.mark = mark;
+            }
+
+            public String getText() {
+                return text;
+            }
+
+            public void setText(String text) {
+                this.text = text;
+            }
+
+            public int getMark() {
+                return mark;
+            }
+
+            public void setMark(int mark) {
+                this.mark = mark;
+            }
+        }
+        byte[] bytes = TestUtil.convertObjectToJsonBytes(new PartialComment("qwe", 2));
+        System.out.println(bytes);
+
+        mockMvc.perform(post("/ajax/clinics/1/comments").
+                content(bytes).
+                contentType(TestUtil.APPLICATION_JSON_UTF8))
                 .andDo(MockMvcResultHandlers.print()).
                 andExpect(status().isOk());
     }

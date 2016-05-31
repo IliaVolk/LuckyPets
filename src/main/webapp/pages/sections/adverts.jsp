@@ -33,7 +33,7 @@
                     </option>
                 </select>
             </label>
-            <input type="submit" value="<s:message code="Submit"/>">
+            <input class="btn btn-default" type="submit" value="<s:message code="Submit"/>">
         </form>
         <section>
             <h4><s:message code="Adverts"/></h4>
@@ -63,7 +63,7 @@
                               ng-submit="
                                commentCtrl.addComment(adverts, advert)"
                               novalidate>
-                            <textarea placeholder="Your comment" class="form-control"
+                            <textarea placeholder="<s:message code="YourComment"/> " class="form-control"
                                       ng-model="commentCtrl.comment.text" required></textarea>
                             <input type="submit" value="<s:message code="Submit"/>"
                                    class="btn btn-default"/>

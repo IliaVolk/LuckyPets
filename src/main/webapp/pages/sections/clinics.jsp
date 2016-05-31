@@ -76,13 +76,13 @@
                                   novalidate>
                                 <select class="form-control" ng-model="commentCtrl.comment.mark"
                                         required>
-                                    <option value="1">1 stars</option>
-                                    <option value="2">2 stars</option>
-                                    <option value="3">3 stars</option>
-                                    <option value="4">4 stars</option>
-                                    <option value="5">5 stars</option>
+                                    <option value="1"><s:message code="1star"/></option>
+                                    <option value="2"><s:message code="2stars"/></option>
+                                    <option value="3"><s:message code="3stars"/></option>
+                                    <option value="4"><s:message code="4stars"/></option>
+                                    <option value="5"><s:message code="5stars"/></option>
                                 </select>
-                            <textarea placeholder="Your comment" class="form-control"
+                            <textarea placeholder="<s:message code="YourComment"/>" class="form-control"
                                       ng-model="commentCtrl.comment.text" required></textarea>
                                 <input class="btn btn-default" type="submit" value="<s:message code="Submit"/>"
                                        class="form-control"/>

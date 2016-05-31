@@ -31,7 +31,8 @@ public class ClinicController extends InternationalController {
             @PathVariable int district,
             @PathVariable int beginIndex,
             @PathVariable int count,
-            final HttpServletRequest httpServletRequest, HttpServletRequest request) {
+            final HttpServletRequest httpServletRequest) {
+
         final List<Clinic> clinics = clinicDao.getClinics(
                 beginIndex, count, AnimalType.values()[animalType], District.values()[district]
         );

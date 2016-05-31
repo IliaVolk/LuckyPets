@@ -28,8 +28,7 @@
                 }
             };
             self.addComment = function (clinic, comment) {
-                $http.post("/ajax/clinics/" + clinic.id + "/comments/" + comment.text + "/" +
-                comment.mark, comment).
+                $http.post("/ajax/clinics/" + clinic.id + "/comments", comment).
                     success(function (processedComment) {
                         if (!clinic.comments) {
                             clinic.comments = [];
