@@ -46,7 +46,7 @@ public class Advert implements Serializable {//объявление
     @JoinColumn(name = "user_id")
     private User user;
 
-    @ElementCollection
+    @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "advert_animal_types",
             joinColumns = @JoinColumn(name = "advert_id"))
     @Column(name = "animal")

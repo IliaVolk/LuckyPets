@@ -6,6 +6,7 @@ import com.luckypets.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -34,7 +35,7 @@ public class CommentController {
             method = RequestMethod.POST)
     public AdvertComment addAdvertComment(
             @PathVariable("advertId") long advertId,
-            @RequestBody AdvertComment comment) {
+            @RequestBody AdvertComment comment) throws IOException {
 
         commentService.saveAdvertComment(advertId, comment);
 
@@ -45,4 +46,5 @@ public class CommentController {
     public List<AdvertComment> getAdvertComments(@PathVariable int advertId) {
         return commentService.getAdvertComments(advertId);
     }
+
 }

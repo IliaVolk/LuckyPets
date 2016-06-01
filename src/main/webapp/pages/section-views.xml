@@ -9,5 +9,7 @@
     </definition>
     <definition name="sections/adverts" template="/pages/sections/adverts.jsp">
     </definition>
-
+    <definition name="sections/user_adverts_answers" template="/pages/sections/user_adverts_answers.jsp">
+    </definition>
+    <definition name="sections/add_advert" template="/pages/sections/add_advert.jsp"/>
 </tiles-definitions>

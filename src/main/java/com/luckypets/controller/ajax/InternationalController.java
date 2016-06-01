@@ -1,11 +1,16 @@
 package com.luckypets.controller.ajax;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.luckypets.entity.Advert;
 import com.luckypets.entity.Clinic;
 import com.luckypets.entity.enums.AnimalType;
+import com.luckypets.entity.representation.AdvertInternationalRepresentation;
 import com.luckypets.entity.representation.ClinicInternationalRepresentation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
@@ -49,5 +54,33 @@ public abstract class InternationalController {
             }
         });
         return clinicsForJson;
+    }
+
+    protected List<AdvertInternationalRepresentation> prepareAdvertListToConversionToJson(
+            List<Advert> adverts, final Locale locale) {
+        final List<AdvertInternationalRepresentation> advertsForJson =
+                new LinkedList<>();
+
+        adverts.forEach(new Consumer<Advert>() {
+            @Override
+            public void accept(Advert a) {
+                AnimalType[] animalTypeArray = new AnimalType[a.getAnimalTypes().size()];
+                a.getAnimalTypes().toArray(animalTypeArray);
+                AdvertInternationalRepresentation advert =
+                        new AdvertInternationalRepresentation(a,
+                                getStringArrayFromEnum(animalTypeArray, locale),
+                                messageSource.getMessage(
+                                        a.getAdvertType().name(), null, locale)
+                        );
+                advertsForJson.add(advert);
+            }
+        });
+        return advertsForJson;
+    }
+
+    public static byte[] convertObjectToJsonBytes(Object object) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        return mapper.writeValueAsBytes(object);
     }
 }

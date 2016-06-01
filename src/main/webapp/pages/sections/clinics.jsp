@@ -11,6 +11,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <section>
+    <h1><s:message code="Clinics"/></h1>
     <section class="nav nav-pills">
         <form name="navForm" role="form"
               ng-submit="clinics.getClinics()"

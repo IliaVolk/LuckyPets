@@ -9,6 +9,13 @@
                 code="Clinics"/></a></li>
         <li ng-class="{active:panel.isSelected(2)}"><a href ng-click="panel.selectTab(2)"><s:message
                 code="Adverts"/></a></li>
+        <sec:authorize access="isAuthenticated()">
+            <li ng-class="{active:panel.isSelected(3)}"><a href ng-click="panel.selectTab(3)"><s:message
+                    code="AddAdvert"/></a></li>
+            <li ng-class="{active:panel.isSelected(4)}"><a href ng-click="panel.selectTab(4)"><s:message
+                    code="SeeAnswers"/></a></li>
+        </sec:authorize>
+
     </ul>
     <div class="panel" ng-show="panel.isSelected(1)">
         <clinics-list></clinics-list>
@@ -16,6 +23,15 @@
     <div class="panel" ng-show="panel.isSelected(2)">
         <adverts-list></adverts-list>
     </div>
+    <sec:authorize access="isAuthenticated()">
+        <div class="panel" ng-show="panel.isSelected(3)">
+            <add_advert></add_advert>
+        </div>
+        <div class="panel" ng-show="panel.isSelected(4)">
+            <adverts_answers></adverts_answers>
+        </div>
+    </sec:authorize>
+
 
 
 </div>

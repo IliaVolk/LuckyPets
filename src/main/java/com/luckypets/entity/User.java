@@ -2,6 +2,7 @@ package com.luckypets.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.luckypets.entity.enums.UserRole;
+import org.hibernate.validator.constraints.Email;
 
 import javax.persistence.*;
 import javax.validation.constraints.Pattern;
@@ -24,6 +25,10 @@ public class User implements Serializable {
     @Size(min = 4, max = 19, message = "must be between 4 and 19 characters long")
     private String login;
 
+    @Column(name = "email")
+    @Email
+    @Size(max = 64)
+    private String email;
     //@Size(min = 4, max = 40, message = "must be between 4 and 19 characters long")
     @Column(name = "password")
     //@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "must be alphanumerical")

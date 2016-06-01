@@ -4,7 +4,7 @@
 
 (function () {
 
-    var app = angular.module("articles", ["clinics", "adverts"]);
+    var app = angular.module("articles", ["clinics", "adverts", "user_actions"]);
 
 
     var PanelControllerConstructor = function () {

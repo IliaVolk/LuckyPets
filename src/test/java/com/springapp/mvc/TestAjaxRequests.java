@@ -4,6 +4,7 @@ import com.luckypets.config.DataSourceConfig;
 import com.luckypets.config.HibernateConfig;
 import com.luckypets.config.Initializer;
 import com.luckypets.config.WebAppConfig;
+import com.luckypets.entity.Advert;
 import com.luckypets.entity.ajax.AjaxAdvertByAnimalTypeAndTypeRequest;
 import com.luckypets.entity.ajax.ClinicsInRadiusSearchCriteria;
 import com.luckypets.entity.enums.AdvertType;
@@ -40,9 +41,31 @@ public class TestAjaxRequests {
         this.mockMvc = webAppContextSetup(this.wac).build();
     }
 
+    //@Test
+    public void testSaveAdvert() throws Exception {
+        Advert advert = new Advert();
+        advert.setTitle("ad");
+        advert.setText("ad");
+        byte[] bytes = TestUtil.convertObjectToJsonBytes(advert);
+        System.out.println(new String(bytes));
+        mockMvc.perform(post("/ajax/adverts/1/0").
+                contentType(TestUtil.APPLICATION_JSON_UTF8).
+                content(bytes)).andDo(MockMvcResultHandlers.print()).
+                andExpect(status().isOk());
+    }
+
+
+    //@Test
+    public void getAnswersForUser() throws Exception {
+        mockMvc.perform(get("/ajax/users/adverts/comments/0/10")).
+                andDo(MockMvcResultHandlers.print()).
+                andExpect(status().isOk());
+    }
+
+
     @Test
     public void testAdvertCommentsRequest() throws Exception {
-        mockMvc.perform(get("/ajax/adverts/2/comments")).andDo(MockMvcResultHandlers.print())
+        mockMvc.perform(get("/ajax/adverts/3/comments")).andDo(MockMvcResultHandlers.print())
                 .andExpect(status().isOk());
     }
 
@@ -79,12 +102,7 @@ public class TestAjaxRequests {
 
     @Test
     public void testClinicsByAnimalTypeAndDistrict() throws Exception {
-        /*AjaxClinicByAnimalTypeAndDistrictRequest request = new AjaxClinicByAnimalTypeAndDistrictRequest();
-        request.setBeginIndex(0);
-        request.setCount(10);
-        request.setAnimalType(AnimalType.DOG);
-        request.setDistrict(District.SVIATOSHINSKI);
-        System.out.println(new String(TestUtil.convertObjectToJsonBytes(request)));*/
+
         mockMvc.perform(
                 get("/ajax/clinics/1/1/0/10"))
                 //.content(TestUtil.convertObjectToJsonBytes(request)))

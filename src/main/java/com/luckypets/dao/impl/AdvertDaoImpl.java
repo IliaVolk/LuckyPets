@@ -2,6 +2,7 @@ package com.luckypets.dao.impl;
 
 import com.luckypets.dao.AdvertDao;
 import com.luckypets.entity.Advert;
+import com.luckypets.entity.User;
 import com.luckypets.entity.enums.AdvertType;
 import com.luckypets.entity.enums.AnimalType;
 import org.hibernate.criterion.Order;
@@ -15,9 +16,9 @@ import java.util.List;
 
 @Transactional
 @Repository
+@SuppressWarnings("unchecked")
 public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
     @Override
-    @SuppressWarnings("unchecked")
     @Transactional
     public List<Advert> getAdverts() {
         return getSession().createCriteria(Advert.class).addOrder(
@@ -25,7 +26,6 @@ public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
     }
 
     @Override
-    @SuppressWarnings("unchecked")
     @Transactional
     public List<Advert> getAdverts(int beginIndex, int count) {
         return getSession().createCriteria(Advert.class).
@@ -34,7 +34,17 @@ public class AdvertDaoImpl extends AbstractDao implements AdvertDao {
     }
 
     @Override
-    @SuppressWarnings("unchecked")
+    @Transactional
+    public List<Advert> getAdverts(User user, int beginIndex, int count) {
+        List<Advert> adverts = getSession().createCriteria(Advert.class).
+                add(Restrictions.eq("user", user)).
+                setFirstResult(beginIndex).setMaxResults(count).list();
+
+
+        return adverts;
+    }
+
+    @Override
     @Transactional
     public List<Advert> getAdverts(AnimalType animalType, AdvertType advertType,
                                    int beginIndex, int count) {

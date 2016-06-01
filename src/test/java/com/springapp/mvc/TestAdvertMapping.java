@@ -11,7 +11,6 @@ import com.luckypets.entity.Advert;
 import com.luckypets.entity.AdvertComment;
 import com.luckypets.entity.User;
 import com.luckypets.entity.enums.AdvertType;
-import com.luckypets.entity.enums.AnimalType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +18,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.EnumSet;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
@@ -58,7 +55,7 @@ public class TestAdvertMapping {
         advert.setText("advert1 text");
         advert.setTitle("advert1");
         advert.setAdvertType(AdvertType.GIVE);
-        advert.setAnimalTypes(EnumSet.of(AnimalType.CAT, AnimalType.DOG));
+        //advert.setAnimalTypes(EnumSet.of(AnimalType.CAT, AnimalType.DOG));
         advertDao.saveAdvert(advert);
 
         AdvertComment advertComment1 = new AdvertComment();

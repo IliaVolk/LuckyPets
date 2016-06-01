@@ -15,6 +15,8 @@
   <script type="text/javascript" src="<c:url value="/resources/js/clinics.js"/>"></script>
   <script type="text/javascript" src="<c:url value="/resources/js/articles.js"/>"></script>
   <script type="text/javascript" src="<c:url value="/resources/js/adverts.js"/>"></script>
+  <script type="text/javascript" src="<c:url value="/resources/js/user_actions.js"/> "></script>
+
 
 </head>
 <body>

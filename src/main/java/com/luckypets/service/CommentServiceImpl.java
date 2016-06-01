@@ -3,8 +3,6 @@ package com.luckypets.service;
 import com.luckypets.dao.*;
 import com.luckypets.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -23,11 +21,13 @@ public class CommentServiceImpl implements CommentService {
     private AdvertCommentDao advertCommentDao;
     @Autowired
     private UserDao userDao;
+    @Autowired
+    private UserAuthenticationSupport authenticationSupport;
     @Override
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
     public void saveClinicComment(long clinicId, ClinicComment comment) {
-        Clinic clinic = clinicDao.getClinic(clinicId);
-        User user = userDao.getUser(getCurrentUserName());
+        Clinic clinic = clinicDao.getClinicWithComments(clinicId);
+        User user = userDao.getUser(authenticationSupport.getCurrentUserName());
         comment.setUser(user);
         comment.setClinic(clinic);
         clinicCommentDao.saveComment(comment);
@@ -36,8 +36,8 @@ public class CommentServiceImpl implements CommentService {
     @Override
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
     public void saveAdvertComment(long advertId, AdvertComment comment) {
-        Advert advert = advertDao.getAdvert(advertId);
-        User user = userDao.getUser(getCurrentUserName());
+        Advert advert = advertDao.getAdvertWithComments(advertId);
+        User user = userDao.getUser(authenticationSupport.getCurrentUserName());
         comment.setUser(user);
         comment.setAdvert(advert);
         advertCommentDao.saveComment(comment);
@@ -53,9 +53,5 @@ public class CommentServiceImpl implements CommentService {
         return advertDao.getAdvertWithComments(advertId).getAdvertComments();
     }
 
-    private String getCurrentUserName() {
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        return auth.getName();
 
-    }
 }

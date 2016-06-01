@@ -1,6 +1,7 @@
 package com.luckypets.dao;
 
 import com.luckypets.entity.Advert;
+import com.luckypets.entity.User;
 import com.luckypets.entity.enums.AdvertType;
 import com.luckypets.entity.enums.AnimalType;
 
@@ -11,6 +12,7 @@ public interface AdvertDao {
 
     List<Advert> getAdverts(int beginIndex, int count);
 
+    List<Advert> getAdverts(User user, int beginIndex, int count);
     List<Advert> getAdverts(AnimalType animalType, AdvertType advertType,
                             int beginIndex, int count);
 

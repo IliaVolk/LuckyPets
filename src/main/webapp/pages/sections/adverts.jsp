@@ -11,7 +11,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <section>
-
+    <h1><s:message code="Adverts"/></h1>
     <section class="nav nav-pills">
         <form name="navForm" role="form"
               ng-submit="adverts.getAdverts()"
@@ -26,7 +26,7 @@
                 </select>
             </label>
             <label>
-                <s:message code="animalType"/>
+                <s:message code="advertType"/>
                 <select class="form-control" ng-model="adverts.advertType" required>
                     <option ng-repeat="option in adverts.advertTypeList"
                             value="{{$index}}">{{option}}

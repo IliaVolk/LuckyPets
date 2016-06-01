@@ -36,7 +36,7 @@ public class SavingCommentsTest {
         this.mockMvc = webAppContextSetup(this.wac).build();
     }
 
-    //@Test
+    @Test
     public void testSavingAdvertComment() throws Exception {
         class Text {
             String text;
@@ -62,7 +62,7 @@ public class SavingCommentsTest {
     }
 
 
-    @Test
+    // @Test
     public void testSavingClinicComment() throws Exception {
 
         class PartialComment {

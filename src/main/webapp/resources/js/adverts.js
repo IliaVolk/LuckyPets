@@ -67,4 +67,5 @@
             controllerAs: "adverts"
         };
     });
+
 })();
